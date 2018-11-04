@@ -5,16 +5,18 @@
 	   
 	<script src="../jquery.min.js"></script>		<!-- lib required from touch.js -->
     <script src="../robotutils.js"></script> 		<!-- handles connection to naoqi api -->
-    <script src="../touch.js"></script>			<!-- inlcudes functions to handle touch events and sync with choregraphe -->
+	<script src="../touch.js"></script>			<!-- inlcudes functions to handle touch events and sync with choregraphe -->
+	
+	<link href="../design.css" rel="stylesheet">
     
     
 </head>
 <body>
 
-	<div>
+<!--	<div>
 		[DE]
 	</div>
-
+-->
 	<!-- 
 		HOWTO USE BUTTONS WITH PEPPER
 		Use button tag for interactive elements.
@@ -22,9 +24,14 @@
 		Handling the calls is handled inside touch.js
 	-->
 	<div>
-		<button id="story1">
+		<button id="story1" class="twoChoices"> 
 			<br />
             H&auml;sslicher Blaubarsch
+			<br />&nbsp;
+		</button>
+		<button id="story2" class="twoChoices">
+			<br />
+            Haben erst eine Geschichte )=
 			<br />&nbsp;
 		</button>
         
