@@ -14,6 +14,11 @@
         <File name="index" src="html/de/index.html" />
         <File name="index" src="html/en/index.html" />
         <File name="index2" src="html/de/index2.html" />
+        <File name="design" src="html/design.css" />
+        <File name="bild_geschichte_1" src="behavior_1/bild_geschichte_1.txt" />
+        <File name="bild_geschichte_2" src="behavior_1/bild_geschichte_2.txt" />
+        <File name="text_geschichte_1" src="behavior_1/text_geschichte_1.txt" />
+        <File name="text_geschichte_2" src="behavior_1/text_geschichte_2.txt" />
     </Resources>
     <Topics />
     <IgnoredPaths />

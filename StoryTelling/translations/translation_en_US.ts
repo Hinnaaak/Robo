@@ -27,4 +27,34 @@
             <translation type="unfinished">Möchtest du eine Geschichte hören?</translation>
         </message>
     </context>
+    <context>
+        <name>behavior_1/behavior.xar:/Say Global</name>
+        <message>
+            <source>Hello</source>
+            <comment>Text</comment>
+            <translation type="obsolete">Hello</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/Say Global Bodytalk</name>
+        <message>
+            <source>Hello</source>
+            <comment>Text</comment>
+            <translation type="obsolete">Hello</translation>
+        </message>
+        <message>
+            <source>Das war es, ich hoffe, dass dir die Geschichte gefallen hat.</source>
+            <comment>Text</comment>
+            <translation type="obsolete">Das war es, ich hoffe, dass dir die Geschichte gefallen hat.</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/Say Global Bodytalk/Say Global</name>
+        <message>
+            <location filename="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../translations/behavior_1/behavior.xar" line="0"/>
+            <source></source>
+            <comment>Text</comment>
+            <translation></translation>
+        </message>
+    </context>
 </TS>
