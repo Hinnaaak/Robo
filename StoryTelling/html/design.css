@@ -1,5 +1,13 @@
 .twoChoices {
     width: 49%;
-    height: 80%;
-    font-size: 9vh;
+    height: 100%;
+    font-size: 7vh;
+    border: none;
+    background-color: transparent;
+}
+button:first-child{
+    border-right:solid black 5px;
+}
+div:first-child{
+    border: solid black 3px;
 }

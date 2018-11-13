@@ -19,6 +19,9 @@
         <File name="bild_geschichte_2" src="behavior_1/bild_geschichte_2.txt" />
         <File name="text_geschichte_1" src="behavior_1/text_geschichte_1.txt" />
         <File name="text_geschichte_2" src="behavior_1/text_geschichte_2.txt" />
+        <File name="sound_geschichte_1" src="behavior_1/sound_geschichte_1.txt" />
+        <File name="sound_geschichte_2" src="behavior_1/sound_geschichte_2.txt" />
+        <File name="sound_story_1_1" src="behavior_1/sound_story_1_1.wav" />
     </Resources>
     <Topics />
     <IgnoredPaths />
