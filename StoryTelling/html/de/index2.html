@@ -1,12 +1,32 @@
 <html>
 <head>
 
-	<title>Website Demo</title>
+	<title>Interactive Story Telling Auswahlmenü</title>
 	   
 	<script src="../jquery.min.js"></script>		<!-- lib required from touch.js -->
     <script src="../robotutils.js"></script> 		<!-- handles connection to naoqi api -->
 	<script src="../touch.js"></script>			<!-- inlcudes functions to handle touch events and sync with choregraphe -->
-	
+    <script>
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                myFunction(this);
+            }
+        };
+    xhttp.open("GET", "../test.xml", true);
+    xhttp.send();
+    
+    function myFunction(xml) {
+        var xmlDoc = xml.responseXML;
+        var x = xmlDoc.getElementsByTagName("story");
+        console.log(x.length);
+        var txt = "";
+        for ( var i = 0; i < x.length ;i++) {
+            document.getElementById("buttonSection").innerHTML += "<button id='story" + x[i].getElementsByTagName("id")[0].childNodes[0].nodeValue + "' class='twoChoices'><br />" + x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue + "<br /></button>";
+        }
+    }
+    </script>
+    
 	<link href="../design.css" rel="stylesheet">
     
     
@@ -17,24 +37,15 @@
 		[DE]
 	</div>
 -->
+
 	<!-- 
 		HOWTO USE BUTTONS WITH PEPPER
 		Use button tag for interactive elements.
 		The button's id attribute will be returned from Website box inside Choregraphe.
 		Handling the calls is handled inside touch.js
 	-->
-	<div>
-		<button id="story1" class="twoChoices"> 
-			<br />
-            H&auml;sslicher Blaubarsch
-			<br />&nbsp;
-		</button>
-		<button id="story2" class="twoChoices">
-			<br />
-            Der Froschk&ouml;nig
-			<br />&nbsp;
-		</button>
-        
+	<div id="buttonSection">
+	
 	</div>
 		
 </body>

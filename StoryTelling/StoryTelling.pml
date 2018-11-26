@@ -15,13 +15,16 @@
         <File name="index" src="html/en/index.html" />
         <File name="index2" src="html/de/index2.html" />
         <File name="design" src="html/design.css" />
-        <File name="bild_geschichte_1" src="behavior_1/bild_geschichte_1.txt" />
-        <File name="bild_geschichte_2" src="behavior_1/bild_geschichte_2.txt" />
-        <File name="text_geschichte_1" src="behavior_1/text_geschichte_1.txt" />
-        <File name="text_geschichte_2" src="behavior_1/text_geschichte_2.txt" />
-        <File name="sound_geschichte_1" src="behavior_1/sound_geschichte_1.txt" />
-        <File name="sound_geschichte_2" src="behavior_1/sound_geschichte_2.txt" />
-        <File name="sound_story_1_1" src="behavior_1/sound_story_1_1.wav" />
+        <File name="index2_org" src="html/de/index2_org.html" />
+        <File name="test" src="html/test.xml" />
+        <File name="test" src="behavior_1/test.xml" />
+        <File name="essensgeraeusche" src="behavior_1/essensgeraeusche.wav" />
+        <File name="froschquaken" src="behavior_1/froschquaken.wav" />
+        <File name="hochzeitsglocken" src="behavior_1/hochzeitsglocken.wav" />
+        <File name="schnarchen" src="behavior_1/schnarchen.wav" />
+        <File name="tuerklopfen" src="behavior_1/tuerklopfen.wav" />
+        <File name="vogelzwitschern" src="behavior_1/vogelzwitschern.wav" />
+        <File name="essensgeraeusche" src="behavior_1/essensgeraeusche.mp3" />
     </Resources>
     <Topics />
     <IgnoredPaths />

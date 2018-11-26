@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<data>
+    <items>
+        <story>
+            <name>Der Froschkoenig</name>
+            <id>1</id>
+            <text>
+                <abschnit>Es war einmal ein Koenig, der hatte drei Techter, die alle wunderschoen waren. Die juengste aber war von allen die schoenste und die sanfteste. An einem besonders heissen Tag im Sommer spielte die Prinzessin mit ihrer goldenen Kugel am liebsten im Wald an einem kuehlen Brunnen.</abschnit>
+                <abschnit>Einmal aber warf sie die Kugel hoch in die Luft und fing sie nicht wieder auf; die Kugel landete im Brunnen und versank in der Tiefe. Das Maedchen wurde traurig und weinte um die verlorene Kugel. Ploetzlich streckte aber ein haesslicher Frosch den Kopf aus dem Wasser und schaute die Prinzessin an.</abschnit>
+                <abschnit>Er sagte: Weine nicht, liebe Prinzessin. Ich kann dir deine Kugel wiederholen, wenn du willst. Was gibst du mir dafuer? Und die Prinzessin versprach ihm ihre teuren Kleider, den Schmuck und auch die Krone die sie trug. Der Frosch aber wollte das alles nicht. Er sagte: Ich will nur dein Spielkamerad sein. Neben dir am Tisch sitzen, von deinem Teller essen und in deinem Bett schlafen. Dann hole ich dir deine Kugel.</abschnit>
+                <abschnit>Das Maedchen versprach es ihm und der Frosch tauchte den Brunnen hinunter. Nach einer Weile kam er wieder an die Oberflaeche und hatte tatsaechlich die Kugel bei sich. Die Prinzessin freute sich sehr, nahm die Kugel und lief uebermuetig nach Hause, ohne an den Frosch zu denken. Am naechsten Tag, als sie mit ihrem Vater und ihren Schwestern bei Tische sass, klopfte es auf einmal an der Tuer und eine Stimme rief: Koenigstochter, juengste, mach mir auf! </abschnit>
+                <abschnit>Als sie nachsah, wer dort sass, erkannte sie den Frosch. Ihr Vater fragte, wer beim Essen stoere und so erzaehlte sie ihm die ganze Geschichte. Der Vater erklaerte ihr, dass sie ihr Versprechen schon halten muesste und so liess sie den Frosch herein und setzte ihn neben sich an den Tisch. Sie liess ihn auch von ihrem Teller essen, aber als er in ihrem Bett schlafen sollte, ekelte sie sich furchtbar.</abschnit>
+                <abschnit>Der Koenig aber bestand darauf und erinnerte sie daran, dass sie schliesslich ihr Wort gegeben hatte und der Frosch ihr immerhin helfen musste. Sie nahm ihn mit in ihr Zimmer, aber als die Tueren geschlossen waren, wurde sie wuetend, nahm den Frosch und warf ihn an die Wand. Als er herabfiel, verwandelte er sich aber in einen schoenen jungen Mann. Er erzaehlte ihr, dass er von einer boesen Hexe verwandelt worden war und nur die Prinzessin den Zauber loesen konnte. Sie heirateten und lebten gluecklich im Reich des Prinzen.</abschnit>
+            </text>
+            <pictures>
+                <picture>
+                    <url>https://i.imgur.com/5XrkFDj.jpg</url>
+                    <side>R</side>
+                </picture>
+                <picture>
+                    <url>https://i.imgur.com/hwAoZAr.jpg</url>
+                    <side>L</side>
+                </picture>
+                <picture>
+                    <url>https://i.imgur.com/19LydMd.jpg</url>
+                    <side>L</side>
+                </picture>
+                <picture>
+                    <url>https://i.imgur.com/Fo5jyuJ.jpg</url>
+                    <side>L</side>
+                </picture>
+                <picture>
+                    <url>https://i.imgur.com/8GFs18d.jpg</url>
+                    <side>R</side>
+                </picture>
+                <picture>
+                    <url>https://i.imgur.com/D12MA35.jpg</url>
+                    <side>R</side>
+                </picture>
+            </pictures>
+            <sounds>
+                <sound>vogelzwitschern.wav</sound>
+                <sound>froschquaken.wav</sound>
+                <sound>schnarchen.wav</sound>
+                <sound>tuerklopfen.wav</sound>
+                <sound>essensgeraeusche.mp3</sound>
+                <sound>hochzeitsglocken.wav</sound>
+            </sounds>
+        </story>
+        <story>
+            <name>Sterntaler</name>
+            <id>2</id>
+            <text>
+                <abschnit>Es war einmal ein Haesslicher Blaubarsch.</abschnit>
+                <abschnit>Der war so haesslich, dass alle Leute gestorben sind.</abschnit>
+                <abschnit>Ende.</abschnit>
+            </text>
+            <pictures>
+                <picture>
+                    <url>https://i.ytimg.com/vi/plkEmg_SFN4/hqdefault.jpg</url>
+                    <side>L</side>
+                </picture>
+                <picture>
+                    <url>http://static.zoonar.de/img/www_repository3/98/f3/1e/10_c8497ef83bd0a94f764d760ec912be07.jpg</url>
+                    <side>B</side>
+                </picture>
+                <picture>
+                    <url>https://i.ytimg.com/vi/5XRMNelsp_o/maxresdefault.jpg</url>
+                    <side>B</side>
+                </picture>
+            </pictures>
+            <sounds>
+                <sound>Zeige mir Patrick.</sound>
+                <sound>Siest du einen Blaubarsch?</sound>
+                <sound>Ende</sound>
+            </sounds>
+        </story>
+    </items>
+</data>
