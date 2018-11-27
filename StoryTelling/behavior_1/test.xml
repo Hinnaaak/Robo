@@ -51,21 +51,26 @@
             <name>Sterntaler</name>
             <id>2</id>
             <text>
-                <abschnit>Es war einmal ein Haesslicher Blaubarsch.</abschnit>
-                <abschnit>Der war so haesslich, dass alle Leute gestorben sind.</abschnit>
-                <abschnit>Ende.</abschnit>
+                <abschnit>Es war einmal ein kleines Maedchen, dem waren Vater und Mutter gestorben, und es war so arm, dass es kein Kaemmerchen mehr hatte, darin zu wohnen, und kein Bettchen mehr hatte, darin zu schlafen, und endlich gar nichts mehr als die Kleider auf dem Leib und ein Stueckchen Brot in der Hand, das ihm ein mitleidiges Herz geschenkt hatte. Es war aber gut und fromm.</abschnit>
+                <abschnit>Und weil es so von aller Welt verlassen war, ging es im Vertrauen auf den lieben Gott hinaus ins Feld. Da begegnete ihm ein armer Mann, der sprach: Ach, gib mir etwas zu essen, ich bin so hungrig. Es reichte ihm das ganze Stueckchen Brot und sagte: Gott segne es dir, und ging weiter. Da kam ein Kind, das jammerte und sprach: Es friert mich so an meinem Kopfe, schenk mir etwas, womit ich ihn bedecken kann. Da nahm es seine Muetze ab und gab sie ihm.</abschnit>
+                <abschnit>Und als es noch eine Weile gegangen war, kam wieder ein Kind und hatte kein Leibchen an und fror, da gab es ihm seins; und noch weiter, da bat eins um ein Roecklein, das gab es auch von sich hin.  Endlich gelangte es in einen Wald, und es war schon dunkel geworden, da kam noch eins und bat um ein Hemdlein, und das fromme Maedchen dachte: Es ist dunkle Nacht, da sieht dich niemand, du kannst wohl dein Hemd weggeben; und zog das Hemd ab und gab es auch noch hin.</abschnit>
+                <abschnit>Und als es so stand und gar nichts mehr hatte, fielen auf einmal die Sterne vom Himmel, und es waren lauter blanke Taler. Und obwohl es doch sein Hemdlein weggegeben hatte, so hatte es nun ein neues an, und das war vom allerfeinsten Linnen. Da sammelte es sich die Taler hinein und war reich für sein Lebtag.</abschnit>
             </text>
             <pictures>
                 <picture>
-                    <url>https://i.ytimg.com/vi/plkEmg_SFN4/hqdefault.jpg</url>
+                    <url>hHerz + Herzklopfen</url>
                     <side>L</side>
                 </picture>
                 <picture>
-                    <url>http://static.zoonar.de/img/www_repository3/98/f3/1e/10_c8497ef83bd0a94f764d760ec912be07.jpg</url>
+                    <url>Frierendes Kind + Bibbern</url>
                     <side>B</side>
                 </picture>
                 <picture>
-                    <url>https://i.ytimg.com/vi/5XRMNelsp_o/maxresdefault.jpg</url>
+                    <url>Landschaft bei Nacht + Nachtgeräusche (Uhu)</url>
+                    <side>B</side>
+                </picture>
+                <picture>
+                    <url>Regnende Münzen + passender Sound</url>
                     <side>B</side>
                 </picture>
             </pictures>
