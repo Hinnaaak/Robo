@@ -58,26 +58,27 @@
             </text>
             <pictures>
                 <picture>
-                    <url>hHerz + Herzklopfen</url>
+                    <url>Gehirn_Herz.png</url>
+                    <side>R</side>
+                </picture>
+                <picture>
+                    <url>Frierendes_Spielendes_Kind.png</url>
                     <side>L</side>
                 </picture>
                 <picture>
-                    <url>Frierendes Kind + Bibbern</url>
-                    <side>B</side>
+                    <url>Tag_Nacht.png</url>
+                    <side>R</side>
                 </picture>
                 <picture>
-                    <url>Landschaft bei Nacht + Nachtgeräusche (Uhu)</url>
-                    <side>B</side>
-                </picture>
-                <picture>
-                    <url>Regnende Münzen + passender Sound</url>
-                    <side>B</side>
+                    <url>Geldregen_Regen.png</url>
+                    <side>L</side>
                 </picture>
             </pictures>
             <sounds>
-                <sound>Zeige mir Patrick.</sound>
-                <sound>Siest du einen Blaubarsch?</sound>
-                <sound>Ende</sound>
+                <sound>Herzschlag.mp3</sound>
+                <sound>Bibbern.wav</sound>
+                <sound>Eule.wav</sound>
+                <sound>Geldregen.wav</sound>
             </sounds>
         </story>
     </items>
