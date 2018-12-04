@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
 <data>
     <items>
         <story>
@@ -8,43 +7,43 @@
                 <abschnit>Es war einmal ein Koenig, der hatte drei Techter, die alle wunderschoen waren. Die juengste aber war von allen die schoenste und die sanfteste. An einem besonders heissen Tag im Sommer spielte die Prinzessin mit ihrer goldenen Kugel am liebsten im Wald an einem kuehlen Brunnen.</abschnit>
                 <abschnit>Einmal aber warf sie die Kugel hoch in die Luft und fing sie nicht wieder auf; die Kugel landete im Brunnen und versank in der Tiefe. Das Maedchen wurde traurig und weinte um die verlorene Kugel. Ploetzlich streckte aber ein haesslicher Frosch den Kopf aus dem Wasser und schaute die Prinzessin an.</abschnit>
                 <abschnit>Er sagte: Weine nicht, liebe Prinzessin. Ich kann dir deine Kugel wiederholen, wenn du willst. Was gibst du mir dafuer? Und die Prinzessin versprach ihm ihre teuren Kleider, den Schmuck und auch die Krone die sie trug. Der Frosch aber wollte das alles nicht. Er sagte: Ich will nur dein Spielkamerad sein. Neben dir am Tisch sitzen, von deinem Teller essen und in deinem Bett schlafen. Dann hole ich dir deine Kugel.</abschnit>
-                <abschnit>Das Maedchen versprach es ihm und der Frosch tauchte den Brunnen hinunter. Nach einer Weile kam er wieder an die Oberflaeche und hatte tatsaechlich die Kugel bei sich. Die Prinzessin freute sich sehr, nahm die Kugel und lief uebermuetig nach Hause, ohne an den Frosch zu denken. Am naechsten Tag, als sie mit ihrem Vater und ihren Schwestern bei Tische sass, klopfte es auf einmal an der Tuer und eine Stimme rief: Koenigstochter, juengste, mach mir auf! </abschnit>
+                <abschnit>Das Maedchen versprach es ihm und der Frosch tauchte den Brunnen hinunter. Nach einer Weile kam er wieder an die Oberflaeche und hatte tatsaechlich die Kugel bei sich. Die Prinzessin freute sich sehr, nahm die Kugel und lief uebermuetig nach Hause, ohne an den Frosch zu denken. Am naechsten Tag, als sie mit ihrem Vater und ihren Schwestern bei Tische sass, klopfte es auf einmal an der Tuer und eine Stimme rief: Koenigstochter, juengste, mach mir auf!</abschnit>
                 <abschnit>Als sie nachsah, wer dort sass, erkannte sie den Frosch. Ihr Vater fragte, wer beim Essen stoere und so erzaehlte sie ihm die ganze Geschichte. Der Vater erklaerte ihr, dass sie ihr Versprechen schon halten muesste und so liess sie den Frosch herein und setzte ihn neben sich an den Tisch. Sie liess ihn auch von ihrem Teller essen, aber als er in ihrem Bett schlafen sollte, ekelte sie sich furchtbar.</abschnit>
                 <abschnit>Der Koenig aber bestand darauf und erinnerte sie daran, dass sie schliesslich ihr Wort gegeben hatte und der Frosch ihr immerhin helfen musste. Sie nahm ihn mit in ihr Zimmer, aber als die Tueren geschlossen waren, wurde sie wuetend, nahm den Frosch und warf ihn an die Wand. Als er herabfiel, verwandelte er sich aber in einen schoenen jungen Mann. Er erzaehlte ihr, dass er von einer boesen Hexe verwandelt worden war und nur die Prinzessin den Zauber loesen konnte. Sie heirateten und lebten gluecklich im Reich des Prinzen.</abschnit>
             </text>
             <pictures>
                 <picture>
-                    <url>https://i.imgur.com/5XrkFDj.jpg</url>
+                    <url>Sommer_Winter_is_coming.png</url>
                     <side>R</side>
                 </picture>
                 <picture>
-                    <url>https://i.imgur.com/hwAoZAr.jpg</url>
+                    <url>Frosch_Hund.png</url>
                     <side>L</side>
                 </picture>
                 <picture>
-                    <url>https://i.imgur.com/19LydMd.jpg</url>
+                    <url>Bett_Tisch.png</url>
                     <side>L</side>
                 </picture>
                 <picture>
-                    <url>https://i.imgur.com/Fo5jyuJ.jpg</url>
+                    <url>Tuer_Blume.png</url>
                     <side>L</side>
                 </picture>
                 <picture>
-                    <url>https://i.imgur.com/8GFs18d.jpg</url>
+                    <url>Kronleuchter_Essen.png</url>
                     <side>R</side>
                 </picture>
                 <picture>
-                    <url>https://i.imgur.com/D12MA35.jpg</url>
+                    <url>Fischerhuette_Hochzeit.png</url>
                     <side>R</side>
                 </picture>
             </pictures>
             <sounds>
-                <sound>vogelzwitschern.wav</sound>
-                <sound>froschquaken.wav</sound>
-                <sound>schnarchen.wav</sound>
-                <sound>tuerklopfen.wav</sound>
+                <sound>vogelzwitschern.mp3</sound>
+                <sound>froschquaken.mp3</sound>
+                <sound>schnarchen.mp3</sound>
+                <sound>klopfen.mp3</sound>
                 <sound>essensgeraeusche.mp3</sound>
-                <sound>hochzeitsglocken.wav</sound>
+                <sound>hochzeitsglocken.mp3</sound>
             </sounds>
         </story>
         <story>
@@ -52,9 +51,9 @@
             <id>2</id>
             <text>
                 <abschnit>Es war einmal ein kleines Maedchen, dem waren Vater und Mutter gestorben, und es war so arm, dass es kein Kaemmerchen mehr hatte, darin zu wohnen, und kein Bettchen mehr hatte, darin zu schlafen, und endlich gar nichts mehr als die Kleider auf dem Leib und ein Stueckchen Brot in der Hand, das ihm ein mitleidiges Herz geschenkt hatte. Es war aber gut und fromm.</abschnit>
-                <abschnit>Und weil es so von aller Welt verlassen war, ging es im Vertrauen auf den lieben Gott hinaus ins Feld. Da begegnete ihm ein armer Mann, der sprach: Ach, gib mir etwas zu essen, ich bin so hungrig. Es reichte ihm das ganze Stueckchen Brot und sagte: Gott segne es dir, und ging weiter. Da kam ein Kind, das jammerte und sprach: Es friert mich so an meinem Kopfe, schenk mir etwas, womit ich ihn bedecken kann. Da nahm es seine Muetze ab und gab sie ihm.</abschnit>
-                <abschnit>Und als es noch eine Weile gegangen war, kam wieder ein Kind und hatte kein Leibchen an und fror, da gab es ihm seins; und noch weiter, da bat eins um ein Roecklein, das gab es auch von sich hin.  Endlich gelangte es in einen Wald, und es war schon dunkel geworden, da kam noch eins und bat um ein Hemdlein, und das fromme Maedchen dachte: Es ist dunkle Nacht, da sieht dich niemand, du kannst wohl dein Hemd weggeben; und zog das Hemd ab und gab es auch noch hin.</abschnit>
-                <abschnit>Und als es so stand und gar nichts mehr hatte, fielen auf einmal die Sterne vom Himmel, und es waren lauter blanke Taler. Und obwohl es doch sein Hemdlein weggegeben hatte, so hatte es nun ein neues an, und das war vom allerfeinsten Linnen. Da sammelte es sich die Taler hinein und war reich für sein Lebtag.</abschnit>
+                <abschnit>Und weil es so von aller Welt verlassen war, ging es im Vertrauen auf den lieben Gott hinaus ins Feld. Da begegnete ihm ein armer Mann, der sprach: Ach, gib mir etwas zu essen, ich bin so hungrig. Es reichte ihm das ganze Stueckchen Brot und sagte, Gott segne es dir, und ging weiter. Da kam ein Kind, das jammerte und sprach, Es friert mich so an meinem Kopfe, schenk mir etwas, womit ich ihn bedecken kann. Da nahm es seine Muetze ab und gab sie ihm.</abschnit>
+                <abschnit>Und als es noch eine Weile gegangen war, kam wieder ein Kind und hatte kein Leibchen an und fror, da gab es ihm seins. und noch weiter, da bat eins um ein Roecklein, das gab es auch von sich hin.  Endlich gelangte es in einen Wald, und es war schon dunkel geworden, da kam noch eins und bat um ein Hemdlein, und das fromme Maedchen dachte, es ist dunkle Nacht, da sieht dich niemand, du kannst wohl dein Hemd weggeben. und zog das Hemd ab und gab es auch noch hin.</abschnit>
+                <abschnit>Und als es so stand und gar nichts mehr hatte, fielen auf einmal die Sterne vom Himmel, und es waren lauter blanke Taler. Und obwohl es doch sein Hemdlein weggegeben hatte, so hatte es nun ein neues an, und das war vom allerfeinsten Linnen. Da sammelte es sich die Taler hinein und war reich fuer sein Lebtag.</abschnit>
             </text>
             <pictures>
                 <picture>
@@ -76,9 +75,9 @@
             </pictures>
             <sounds>
                 <sound>Herzschlag.mp3</sound>
-                <sound>Bibbern.wav</sound>
-                <sound>Eule.wav</sound>
-                <sound>Geldregen.wav</sound>
+                <sound>schnee.mp3</sound>
+                <sound>Eule.mp3</sound>
+                <sound>money.mp3</sound>
             </sounds>
         </story>
     </items>
