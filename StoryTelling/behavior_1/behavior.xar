@@ -50,7 +50,7 @@ class MyClass(GeneratedClass):
         self.touched = 0
         self.tried = 0
         self.listenTexts = ["Was könnte das sein? Zeigst du es mir?",
-                            "Hast du das gehört? Siehst du wo das herkommt?", ]
+                            "Hast du das gehört? Kannst du mir zeigen wo das her kommt?"]
         self.storys = [Story("Hässlicher Blaubarsch", [Part("Es war einmal ein hässlicher Blaubarsch.",
                                                             Image("https://i.ytimg.com/vi/plkEmg_SFN4/hqdefault.jpg",
                                                                   ""), "Drücke auf Patrick"),
@@ -115,7 +115,7 @@ class MyClass(GeneratedClass):
         x = 0
         story = self.storys[self.selection - 1]
         if len(story.parts) >= self.part:
-            self.sayTextWithoutFeedback("Hörst du das? Woher könnte das kommen?")
+            self.sayTextWithoutFeedback(listenTexts[random.randint(0, len(listenTexts))])
             time.sleep(0.5)
             self.playSound("/" + str(story.parts[self.part].sound))
             time.sleep(2)
@@ -139,7 +139,7 @@ class MyClass(GeneratedClass):
             else:
                 if self.tried < 4:
                     self.tried = self.tried+1
-                    self.sayText("Bist du dir sicher? Probiere es nocheinmal")
+                    self.sayText("Bist du dir sicher? Höre es dir nochmal an")
                     time.sleep(1)
                     self.block = False
                 else:

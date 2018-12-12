@@ -1,0 +1,42 @@
+<html>
+<head>
+
+	<title>Interactive Story Telling Auswahlmenü</title>
+	   
+	<script src="../jquery.min.js"></script>		<!-- lib required from touch.js -->
+    <script src="../robotutils.js"></script> 		<!-- handles connection to naoqi api -->
+	<script src="../touch.js"></script>			<!-- inlcudes functions to handle touch events and sync with choregraphe -->
+    
+    
+	<link href="../design.css" rel="stylesheet">
+    
+    
+</head>
+<body>
+
+<!--	<div>
+		[DE]
+	</div>
+-->
+
+	<!-- 
+		HOWTO USE BUTTONS WITH PEPPER
+		Use button tag for interactive elements.
+		The button's id attribute will be returned from Website box inside Choregraphe.
+		Handling the calls is handled inside touch.js
+	-->
+	<div>
+	 	<button id="ja" class="twoChoices">
+			<br />
+			Ja
+			<br />&nbsp;
+		</button>
+		<button id="nein" class="twoChoices">
+			<br />
+			Nein
+			<br />&nbsp;
+		</button>
+	</div>
+		
+</body>
+</html>
