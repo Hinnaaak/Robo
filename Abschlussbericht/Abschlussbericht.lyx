@@ -1,0 +1,2487 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+\lhead{} 
+
+\chead{Humanoide Roboter in der Pflege - Abschlussbericht - Interaktive Geschichten Malte Hansen, Luca Schüller, Sarah Skoda}
+
+\rhead{}
+
+\renewcommand{\headrulewidth} {0.0pt} 
+\renewcommand{\footrulewidth} {0.0pt} 
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language ngerman
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 0
+\use_package mathtools 1
+\use_package mhchem 0
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style german
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Humanoide Roboter in der Pflege
+\end_layout
+
+\begin_layout Author
+Malte Hansen Matrikel-Nr.
+ 928 765
+\begin_inset Newline newline
+\end_inset
+
+Luca Schüller Matrikel-Nr.
+ 928 719
+\begin_inset Newline newline
+\end_inset
+
+Sarah Skoda Matrikel-Nr.
+ 931 666
+\end_layout
+
+\begin_layout Abstract
+Abschlussbericht zum Projekt interaktives Geschichtenvorlesen, im Rahmen
+ des Moduls 17 / BI 136 Humanoide Roboter in der Pflege .
+ Fachhochschule Kiel, Hochschule für angewandte Wissenschaften.
+ Fachbereich Soziale Arbeit und Gesundheit, Studiengang Soziale Arbeit.
+ Fachbereich Informatik und Elektrotechnick, Studiengang Informationstechnologie.
+ Dozent/in Hannes Eilers, Gaby Lenz, Jens Lüssem.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Einleitung
+\end_layout
+
+\begin_layout Standard
+Im Wintersemester 2018/2019 gab es im Modul 
+\begin_inset Quotes gld
+\end_inset
+
+Humanoide Roboter in der Pflege
+\begin_inset Quotes grd
+\end_inset
+
+ an der Fachhochschule Kiel die Anforderung eine Anwendung für einen humanoiden
+ Roboter zu entwickeln.
+ Ziel war es, das diese in einer Pflegeeinrichtung eingesetzt werden kann.
+\begin_inset Newline newline
+\end_inset
+
+Die Arbeit an diesem Projekt sollte in Gruppenarbeit zwischen Studierenden
+ des Fachbereichs Informatik und Elektrotechnik und des Fachbereichs Soziales
+ und Gesundheit durchgeführt werden.
+ Eine Gruppe bestand in den meisten Fällen aus 4 Personen, von denen zwei
+ Sozialpädagogik und zwei Informatik studieren.
+ Ein weiteres festes Element jeder Projektgruppe war der gemeinsame Besuch
+ einer Pflegeeinrichtung, bei dem der aktuelle Stand des entwickelten Programms
+ vorgestellt und getestet werden konnte.
+\begin_inset Newline newline
+\end_inset
+
+Als die Gruppen aufgeteilt wurden und das Projekt erklärt wurde, ging es
+ an das Brainstorming der jeweiligen Gruppen.
+ Vorher wurden dem Kurs noch einige Projekte von früheren Gruppen gezeigt,
+ um sich anhand der gezeigten Beispiele zu orientieren.
+ Somit wurde ein Überblick über die möglichen Ideen gegeben.
+ Dadurch konnten die Gruppen, innerhalb des Kurses, sich an Ideen orientieren,
+ um diese verbessern oder ganz eigene Ideen für ein Programm zu schaffen.
+\begin_inset Newline newline
+\end_inset
+
+Leider fiel in unserer Gruppe eine Sozialpädagogik Studentin nach den ersten
+ zwei Treffen für den restlichen Projektverlauf aus, wodurch wir den Großteil
+ des Projekts zu dritt erledigten.
+\end_layout
+
+\begin_layout Section
+Zielsetzung
+\end_layout
+
+\begin_layout Standard
+Die Zielsetzung, die sich für die Gruppe ergeben hat, war schnell eindeutig.
+ Das Ziel war es, die Robotertechnik mit der Praxis der Sozialpädagogik
+ zu verknüpfen und dabei ein Programm zu schaffen, was real in einer Demenz-WG
+ benutzt werden kann.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Die Wahl viel auf ein Programm zum Vorlesen von Geschichten mit visuellen,
+ auditiven und interaktiven Aspekten.
+ Der Sinn der Geschichtenvorlesung ist, dass es die Menschen in der WG aktiviere
+n soll.
+ Damit ist gemeint, dass die Menschen sich verschiedene Aspekte merken sollen,
+ sich bewegen sollen und sich auch Überlegungen machen sollen, um das Programm
+ beenden zu können.
+ Es sollte eben nicht nur einfache Geschichten vorlesen sein, sondern eine
+ Geschichte, die sich, durch die Beteiligung der demenzerkrankten Menschen,
+ interaktiv weiterführen lässt.
+\end_layout
+
+\begin_layout Section
+Ausgangsüberlegung
+\end_layout
+
+\begin_layout Standard
+Die Ausgangsüberlegung war erst einmal, was sich sinnvoll in der vorgegebenen
+ Zeit umsetzen lassen würde.
+\begin_inset Newline newline
+\end_inset
+
+Es war klar, dass es kein zu kompliziertes oder gar aufwendiges Programm
+ für den Roboter sein dürfe, da die Zeit nicht ausreichend ist, eben dieses
+ zu programmieren.
+ Des Weiteren sollte das Programm nicht nur den demenzerkrankten Personen,
+ im besten Fall, Spaß machen, sondern das Programm sollte auch eine Entlastung
+ für die Betreuer_in sein.
+ Außerdem sollte die Anwendung die Möglichkeit bieten viele Personen an
+ zu sprechen.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Der Gruppe wurde berichtet, dass es in der Demenz-WG Menschen gibt, die
+ sich ungern an den Gruppenaktivitäten der WG beteiligen.
+ Die Idee den Roboter Geschichten vorlesen zu lassen war geboren.
+ Durch die Auswahl von Geschichten mit unterschiedlichsten Themen sollte
+ für jeden etwas dabei sein um Spaß an dem Roboter zu haben.
+\end_layout
+
+\begin_layout Section
+Warum sollte demenzkranken Menschen vorlesen werden?
+\end_layout
+
+\begin_layout Standard
+Vorlesen zu bekommen ist eine der ersten Kindheitserinnerungen vieler Menschen,
+ da bilden Demenzkranke keine Ausnahme.
+ Jedoch ist es bei vielen demenzerkrankten Personen so, dass es neben der
+ Demenz noch eine Vielzahl von anderen Problemen gibt, die das Lesen erschweren.
+ Ein Beispiel hierfür ist, dass es Probleme mit den Augen geben kann.
+ Das kann zu einer Einschränkung der Sicht führen.
+ Ein weiteres Problem ist, dass es Einschränkungen in der Mobilität gibt.
+ Dadurch fällt vielen demenzerkrankten das Lesen schwer.
+ Jedoch müssen einige Punkte beachtet werden, wenn Demenzerkrankten vorgelesen
+ wird: 
+\end_layout
+
+\begin_layout Itemize
+Einerseits ist die Konzentrationsfähigkeit von Menschen mit Demenz gemindert,
+ sodass darauf geachtet werden muss, dass die Texte oder Geschichten nicht
+ zu komplex oder zu lang sind.
+ 
+\end_layout
+
+\begin_layout Itemize
+Des Weiteren muss beachtet werden, dass die Verarbeitung von Informationen
+ gegebenenfalls länger braucht.
+ 
+\end_layout
+
+\begin_layout Itemize
+Die Ablenkungsrate könnte ebenfalls erhöht sein.
+\end_layout
+
+\begin_layout Standard
+Dementsprechend eignen sich Kurzgeschichten gut, um vorgelesen zu werden.
+ Jedoch sollten diese ebenfalls nicht zu lang sein, da durch die geminderte
+ Konzentrationsfähigkeit der Anfang von Texten vergessen werden könnte.
+ Ein weiterer Punkt ist, je nachdem wie stark die Demenz ist, sollten die
+ Geschichten eher die emotionale Ebene der Menschen ansprechen, als nur
+ die Konzentrationsfähigkeit.
+ Ein weiterer Punkt ist die Einfachheit der Texte, diese sollten aus wenig
+ komplexen Sätzen bestehen.
+\begin_inset Newline newline
+\end_inset
+
+Das Vorlesen steht und fällt mit dem Interesse der Klienten.
+ Daher ist es sinnvoll kleine interaktive Phasen einzubauen.
+ Das könnte das Interesse heben und dafür sorgen, dass die Klienten weiter
+ motiviert sind, der Geschichte zu folgen.
+ (Vgl.
+ Forum für Ergotherapie bei Demenz 2007) Hinzukommt dass der Umgang mit
+ Demenzkranken viel Sensibilität erfordert und auch ein Gespür für die Stimmung
+ der Personen verlangt.
+ Ist eine Person beispielsweise traurig, wäre ein trauriges Gedicht nicht
+ unbedingt von Vorteil und könnte gegebenenfalls negative Assoziationen
+ in den demenzkranken Personen wecken und wäre somit kontraproduktiv.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Dennoch sollte sich bewusste gemacht werden, dass es beim Vorlesen zu verschiede
+n emotionalen Ausbrüchen der Menschen kommen kann.
+ Eine Geschichte kann für eine Person etwas positives wecken, jedoch für
+ eine andere Person Trauer hervorrufen.
+ (Vgl.
+ UKV 2017)
+\begin_inset Newline newline
+\end_inset
+
+Gerade Märchen eignen sich gut, um vorgelesen zu werden.
+ Da viele Märchen in den Köpfen älterer Menschen verwurzelt sind.
+ Oft werden Argumente gegen das Vorlesen von Märchen gebracht, da diese
+ zu kindisch seien, jedoch ist der Gedanke nicht ganz richtig.
+ Demenziell erkrankten Menschen kann ein Märchen beispielsweise dabei helfen
+ sich zu erinnern.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Bei vielen Demenzerkrankte Menschen verläuft die Demenz so, dass neues Wissen
+ oder neu erlernte Methoden zuerst vergessen werden, somit bleiben älteres
+ Wissen länger in der Erinnerung der Menschen und hier setzten die Märchen
+ oftmals an, da, wie oben bereits erwähnt, Märchen eine frühe Kindheitserinnerun
+g darstellen können.
+ Des Weiteren haben Märchen oft nur einen Handlungsstrang, den es zu folgen
+ gilt und überfordert die Menschen nicht mit zu vielen Informationen, die
+ schwerer verarbeitet werden können.
+ Märchen oder auch andere Kurzgeschichten bieten die Möglichkeit demenzerkrankte
+ Menschen biografisch mit dem Vorgelesen anzusprechen, indem beispielsweise
+ Geschichten gewählt werden, die mit dem Lebenslauf der jeweiligen Person
+ zu tun hat.
+ Hat eine Person beispielsweise früher als Bäcker gearbeitet, wird eine
+ Geschichte gewählt, in der es um einen Bäcker geht.
+ Dadurch kann eine persönliche Verbindung zwischen der Geschichte und dem
+ Erkrankten entstehen.
+ Weitere Möglichkeiten eine Verbindung zu schaffen sind bestimmte Handlungen,
+ die die Menschen ähnlich erlebt haben oder bestimmte Charaktereigenschaften,
+ die die Menschen auf sich beziehen oder beziehen können.
+ Durch Bilder oder Gegenstände kann die Gefühlswelt der Menschen direkt
+ angesprochen werden.
+ Dies unterstützt das Märchen in seiner Wirkung.
+ 
+\end_layout
+
+\begin_layout Section
+Didaktischer Einsatzplan
+\end_layout
+
+\begin_layout Standard
+Nachdem sich die Gruppen zusammenfanden, wurde über das Thema gesprochen,
+ welches die Grundlage für das Programm darstellen sollte.
+ Die Gruppe entschied sich für ein auditives, visuelles und haptisches Programm.
+ Die Grundlage hierfür war ein bereits bestehendes Projekt.
+ Dieses Projekt war so konzipiert, dass der Roboter Geschichten vorlas und
+ passende Geräusche zu dem jeweiligen Part der Geschichte abspielte.
+ Eine weitere Grundlage war eine Art Memory, die der Roboter ebenfalls ausführen
+ konnte.
+ Die Idee bestand also darin, die Geschichten auditiv zu vermitteln, indem
+ der Roboter die Geschichte bzw.
+ die Passagen der Geschichte vorlas.
+ Visuell sollte der Roboter Bilder anzeigen, die die Geschichte unterstützen.
+ Hier kommt die haptische Komponente ins Spiel.
+ Es werden zwei verschieden Bilder angezeigt und die Person, welche sich
+ die Geschichte anhört, soll auf das passende Bild drücken, damit die Geschichte
+ weiterlaufen kann.
+ Damit wären verschiedene Sinne der erkrankten Menschen angesprochen, um
+ so eine bessere Aufmerksamkeitsspanne zu generieren.
+ Die Gruppe war sich der monotonen Stimmlage des Roboters bewusst und wollte
+ mit verschieden Komponenten der Wahrnehmung dagegen wirken.
+\end_layout
+
+\begin_layout Subsection
+User Stories
+\end_layout
+
+\begin_layout Standard
+Nachdem sich innerhalb der Gruppe auf den Inhalt der Anwendung festgelegt
+ wurde, konstruierten wir spezifische Anwendungsfälle, die uns als Gerüst
+ für die Entwicklung des Programms dienen sollten.
+ Die Wichtigsten sind als User Stories zusammengefasst:
+\end_layout
+
+\begin_layout Itemize
+Als Mitarbeiter_in in einer Demenz-WG möchte ich die Erkrankten durch einen
+ humanoiden Roboter unterhalten, um mich zu entlasten und trotzdem eine
+ menschliche Ebene aufrecht zu erhalten.
+\end_layout
+
+\begin_layout Itemize
+Als Mitarbeiter_in in einer Demenz-WG möchte ich die Erkrankten Geräusche,
+ Bilder und Texte zueinander zuordnen lassen, um ihre Assoziationen zu stärken.
+\end_layout
+
+\begin_layout Itemize
+Als Demenz-Patient_in möchte ich ein altes Märchen hören, um mich an meine
+ Kindheit zu erinnern.
+\end_layout
+
+\begin_layout Itemize
+Als Demenz-Patient_in möchte ich Bilder und Geräusche einer Geschichte zuordnen,
+ um Zeit zu vertreiben.
+\end_layout
+
+\begin_layout Subsection
+Anforderungen
+\end_layout
+
+\begin_layout Standard
+Die Kombination aus Projektidee, Hintergrund der Anwender_innen und User
+ Stories führte uns zu folgenden, initialen Anforderungen bei der Entwicklung
+ der Anwendung:
+\end_layout
+
+\begin_layout Itemize
+Aktivierung der demenzerkranten Menschen durch Einbindung in den Programmablauf
+\end_layout
+
+\begin_layout Itemize
+Auswahl angemessener Geschichten
+\end_layout
+
+\begin_layout Itemize
+Das Pflegepersonal muss das Programm selbstständig starten, durchlaufen
+ und beenden können
+\end_layout
+
+\begin_layout Itemize
+Ansprache der Demenzerkrankten durch auditive, visuelle und haptische Faktoren
+\end_layout
+
+\begin_layout Itemize
+Beschränkung der Dauer der Anwendung (auf z.B.
+ 5 Minuten)
+\end_layout
+
+\begin_layout Itemize
+Bedienung des Programms muss für die Erkrankten möglich sein
+\end_layout
+
+\begin_layout Subsection
+Entwicklung des Programms
+\end_layout
+
+\begin_layout Standard
+Es erfolgte die Erstellung eines Skriptes.
+ Diese sollte die verschiedenen Etappen des Programms auf dem Papier darstellen:
+ 
+\end_layout
+
+\begin_layout Itemize
+Der Roboter fragt, ob jemand eine Geschichte vorgelesen bekommen möchte.
+ Die hierbei möglichen Varianten sind ein „Ja“ oder ein „Nein“.
+ Bei einem „Nein“ wird der Roboter keine Geschichte vorlesen.
+\end_layout
+
+\begin_layout Itemize
+Bei einem „Ja“ fragt der Roboter, welche Geschichte derjenige gerne hören
+ würde.
+ Hier können zwischen verschieden Geschichten gewählt werden.
+\end_layout
+
+\begin_layout Itemize
+Entscheidet die Person sich für eine Geschichte liest der Roboter die gewünschte
+ Geschichte vor bis es zu einem Ton und einem passenden Bild kommt und die
+ Person auf das richtige Bild tippen muss.
+\end_layout
+
+\begin_layout Itemize
+Wird alles richtig gemacht, kommt die Person ans Ende der Geschichte.
+ Wird aber wiederholt auf das falsche Bild gedrückt, fragt der Roboter,
+ ob das wirklich richtig war.
+ Wird immer noch auf das falsche Bild gedrückt, springt der Roboter trotzdem
+ zum nächsten Part.
+\end_layout
+
+\begin_layout Standard
+Der Sinn hinter dieser Idee ist relativ simpel, sollte es bei wiederholten
+ falschen drücken nicht zu einer automatischen Weiterführung der Geschichte
+ kommen, könnte 
+\end_layout
+
+\begin_layout Itemize
+den demenzerkrankten Menschen die Lust an dem Programm verlieren, 
+\end_layout
+
+\begin_layout Itemize
+ihre Frustrationstoleranz erreicht werden, was zu erhöhter Aggression führen
+ könnte oder
+\end_layout
+
+\begin_layout Itemize
+vergessen werden, was das Ziel der Aufgabe war.
+\end_layout
+
+\begin_layout Subsection
+Auswahl der Geschichten
+\end_layout
+
+\begin_layout Standard
+Erst mussten für das Programm Geschichten ausgewählt werden.
+ Hierbei war es wichtig, dass diese Geschichten bestimmte Kriterien erfüllten,
+ um als geeignet für Demenzerkrankte eingestuft zu werden.
+ Um diese Kriterien zu erfüllen, wurde sich mit der Demenz auseinandergesetzt
+ und auch mit typischen Verhaltensweisen von Menschen mit Demenz.
+ Dadurch wurde besonders deutlich, dass die Geschichten nicht zu lang und
+ ebenfalls von der Satzstellung nicht zu kompliziert sein dürfen.
+ Märchen stellten sich als gut geeignet zum Vorlesen heraus, da Märchen
+ auch ein Bestandteil vieler älterer Menschen war und ist.
+ Innerhalb der Gruppe wurde sich für „Der Froschkönig“ und „Die Sterntaler“
+ entschieden.
+ 
+\end_layout
+
+\begin_layout Itemize
+Zuerst mussten relativ kurze Versionen der Geschichten gefunden werden,
+ oder die Geschichten ggf.
+ verkürzt werden.
+\end_layout
+
+\begin_layout Itemize
+Danach musste sich überlegt werden, wie die einzelnen Geschichten unterteilt
+ werden sollten.
+ Die Parts sollten nicht zu lang sein, aber es sollte auch nicht zu viele
+ Unterteilungen geben, welches die Geschichte nur strecken würde.
+\end_layout
+
+\begin_layout Itemize
+Nachdem passende Parts gewählt wurden, mussten nun noch passende Bilder
+ ausgesucht werden, die verständlich den Verlauf der Geschichte verdeutlichen.
+ Wichtig hierbei war es, dass die Bilder einen starken Kontrast zum Gegenüber
+ darstellten, um eine potenzielle Verwechselung zu vermeiden.
+\end_layout
+
+\begin_layout Itemize
+Des Weiteren mussten passende Geräusche zu den einzelnen Bildern gefunden
+ werden, damit diese auditiv verstärkt werden.
+\end_layout
+
+\begin_layout Standard
+Das Resultat ist eine Geschichte, die visuell und auditiv unterstützt wird
+ und mit haptischen Komponenten ebenfalls verstärkt wird.
+\end_layout
+
+\begin_layout Subsection
+Weiteres Verfahren
+\end_layout
+
+\begin_layout Standard
+Aufgrund verschiedener Komplikationen verschob sich der Termin der Vorführung
+ bis auf den 16.01.19.
+ In der Zwischenzeit wurde das Programm weiter verfeinert und sollte jetzt
+ neben der haptischen Komponente zum Bestätigen einer Geschichte, auch mit
+ einem gesprochenen „Ja“ und der Wahl zwischen „Froschkönig“ und „Sterntaler“
+ funktionieren.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Hinzukommt die Fertigstellung eines Evaluationsbogens für den Betreuer_in:
+ 
+\end_layout
+
+\begin_layout Itemize
+Wie war die Sprechgeschwindigkeit? 
+\end_layout
+
+\begin_layout Itemize
+Wie war die Lautstärke? 
+\end_layout
+
+\begin_layout Itemize
+War der Schwierigkeitsgrad angemessen? 
+\end_layout
+
+\begin_layout Itemize
+War der Ablauf verständlich? 
+\end_layout
+
+\begin_layout Itemize
+War der Ablauf angemessen? 
+\end_layout
+
+\begin_layout Itemize
+Sind die Texte einfach genug? 
+\end_layout
+
+\begin_layout Itemize
+Ist die Dauer der Texte geeignet? 
+\end_layout
+
+\begin_layout Itemize
+Sind die Texte thematisch angemessen?
+\end_layout
+
+\begin_layout Standard
+Der Evaluationsbogen dient für eine bessere Reflektion nach der Vorführung
+ des Programms.
+\end_layout
+
+\begin_layout Section
+Beschreibung der Technischen Anforderung
+\end_layout
+
+\begin_layout Standard
+Ziel des Projekts war es eine Anwendung für den humanoiden Roboter „Pepper“
+ zu entwickeln.
+ Das Einsatzgebiet war gezielt auf Unterstützung in Einrichtungen für Demenzerkr
+ankte festgelegt.
+\begin_inset Newline newline
+\end_inset
+
+Aus diesen Rahmenbedingungen ergaben sich folgende technische Anforderungen:
+ 
+\begin_inset Newline newline
+\end_inset
+
+Um innerhalb des gegebenen Zeitrahmens ein zufriedenstellendes Ergebnis
+ zu erhalten, sollte die von Pepper bereitgestellte Aldebaran-Box-Bibliothek
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Bibliothek mit mehreren Programmbausteinen, für z.B.
+ Bewegen, Sprechen, Hören und Sehen
+\end_layout
+
+\end_inset
+
+ genutzt werden.
+ Um eigene Programmbausteine und die der Bibliothek zu verbinden und eine
+ zusammenhängende Struktur zu erzeugen, benutzten wir das Programm Choregraphe.
+ Die Programmierung der Bausteine erfolgte in Python.
+ Für das Speichern und Einlesen der Geschichten war ebenfalls eine Lösung
+ notwendig.
+ Hier haben wir uns für eine XML-Datei entschieden.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Da die Anwendung unabhängig von anderer Technik und Wissensstand der Mitarbeiter
+ in der Pflegeeinrichtung zum Einsatz kommen soll, musste das Programm ohne
+ Internetzugang funktionieren und sollte ohne vorherige Konfiguration der
+ Pflegekräfte der Einrichtung einsetzbar sein.
+ Daraus ergibt sich auch die Anforderung, dass neue Geschichten leicht und
+ ohne umfassende Vorkenntnisse hinzugefügt, bzw.
+ vorhandene Geschichten verändert werden können.
+ Um die Unabhängigkeit vom Internet zu garantieren, sollte eine Geschichte
+ lokal auf dem Roboter gespeichert sein.
+\begin_inset Newline newline
+\end_inset
+
+Für den Ablauf der Anwendung war es außerdem notwendig, dass der Roboter
+ Texte vorlesen, Bilder auf dem Tablet anzeigen, Geräusche abspielen und
+ eine Auswahl auf Grund von Sprache oder eines Touch-Inputs treffen kann.
+ Dabei war es sehr wichtig, dass ein gewisser Programmablauf eingehalten
+ wird und nicht willkürlich gewechselt wird.
+\begin_inset Newline newline
+\end_inset
+
+Des Weiteren war darauf zu achten, dass die Anwendung an die Zielgruppe
+ angepasst wird.
+ So mussten Lautstarke und Sprechgeschwindigkeit angepasst werden.
+ Auch sollten Schriften möglichst groß und gut leserlich sein.
+ Bei der Verwendung des Touch-Funktion des Tablet-Displays ist zu beachten,
+ dass die Zielgruppe den Touchscreen eventuell nicht so bedient, wie wir
+ es gewohnt sind.
+ Folgende Arten der Bedienung sollten durch das Gerät angenommen werden:
+\end_layout
+
+\begin_layout Itemize
+Drücken mit einem Finger
+\end_layout
+
+\begin_layout Itemize
+Drücken mit mehreren Fingern
+\end_layout
+
+\begin_layout Itemize
+Drücken mit der Handfläche
+\end_layout
+
+\begin_layout Itemize
+Starkes Drücken des Displays 
+\end_layout
+
+\begin_layout Itemize
+Streichen über das Display
+\end_layout
+
+\begin_layout Standard
+Neben der Art der Eingabe muss natürlich auch darauf geachtet werden, dass
+ der Touchscreen nur dann auf eine Eingabe reagiert, wenn dies tatsächlich
+ erwünscht ist.
+ Es sollten aber auch nicht, beispielsweise durch sehr langes Drücken, mehrere
+ Auswahlen registriert werden.
+ Auch die Größe des Ziels der Touch-Abfrage darf nicht zu klein sein, da
+ ein kleines Ziel von unerfahrenen Benutzern schnell verfehlt werden kann
+ und dies potenzielle Frustrationen hervorruft.
+\begin_inset Newline newline
+\end_inset
+
+Alles in allem war es eine Herausforderung, herauszufinden, wie die Zielgruppe
+ den Touchscreen benutzt und alle Eventualitäten abzufangen, um ein unvorhergese
+henes Verhalten der Anwendung zu vermeiden.
+\end_layout
+
+\begin_layout Section
+Beschreibung der Anwendung (Struktur)
+\end_layout
+
+\begin_layout Standard
+Unter Berücksichtigung aller Anforderungen (vgl.
+ Kapitel 5.2 und 6) wurde das in Punkt 5.3 entworfene Skript nochmals revidiert
+ und der grobe Ablauf und die Struktur des Programms innerhalb der Gruppe
+ skizziert.
+ Das daraus resultierende Ergebnis, welches als enge Vorlage für unsere
+ Anwendung galt, ist in Abbildung 1 und Abbildung 2 dargestellt.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Bilder/Programmablauf_1.jpg
+	width 100text%
+	height 95theight%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Skizze des Programmablaufs, Teil 1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Bilder/Programmablauf_2.jpg
+	width 100text%
+	height 95theight%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Skizze des Programmablaufs, Teil 2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+ Zum Projektende startet die Anwendung mit der Frage durch den Roboter,
+ ob man eine Geschichte hören möchte.
+ Auf dem Display erscheinen die Auswahlmöglichkeiten „Ja“ und „Nein“.
+ Durch das Antippen einer der beiden Optionen wird das Programm fortgesetzt.
+ Der Roboter verfügt aber auch über eine Spracherkennung, die die Worte
+ „Ja“ und „Nein“ wahrnehmen und auswerten kann.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Als nächstes fragt der Roboter, welche Geschichte man hören möchte.
+ Auf dem Display erscheinen wieder die Auswahlmöglichkeiten.
+ Die Namen der Geschichten, die angezeigt werden, so wie die für die Spracherken
+nung genutzten Schlüsselwörter, werden vom Programm dynamisch, anhand der
+ in der XML-Datei hinterlegten Informationen, erstellt und übergeben.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Nach dem durch das Antippen oder die Spracherkennung eine Geschichte ausgewählt
+ wurde, startet der Hauptteil des Programms.
+ Der Roboter wählt den aktuellen Abschnitt aus einem Array aus.
+ Von dort erhält er den Text, der vorgelesen, und den Namen des Bildes,
+ das angezeigt werden soll.
+ Sobald der Roboter den Text vollständig gelesen hat, stellt der Roboter
+ die Frage, ob man ihm zeigen könne, woher das Geräusch kommt und spielt
+ eine Sound-Datei ab.
+ Diese wird in einer Endlosschleife gespielt.
+ Nun ist auch die Touch-Erkennung des Displays aktiviert.
+ Sobald der Bildschirm berührt wird, wird die Sound-Datei angehalten.
+ Anhand der Koordinaten der Position, an der das Display berührt wurde,
+ wird überprüft, ob das richtige Bild ausgewählt wurde.
+ Hierbei wird nur zwischen linker und rechter Hälfte des Displays unterschieden.
+ Die Informationen für den Namen der Sound-Datei und auf welcher Hälfte
+ sich das richtige Bild befindet sind ebenfalls im Array gespeichert und
+ zum Start des Programms aus der XML-Datei ausgelesen worden.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Wenn die falsche Seite des Bildes ausgewählt wurde, fragt der Roboter, ob
+ man sich sicher ist und bittet darum es noch einmal zu Probieren.
+ Das Geräusch wird erneut abgespielt und auf das Tippen gewartet.
+ Der Nutzer kann bis zu fünf Mal die falsche Seite auswählen.
+ Danach fährt das Programm, trotz falscher Eingabe, im Ablauf fort.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Bei richtiger oder mehrmaliger falscher Auswahl wird der nächste Teil der
+ Geschichte ermittelt, ein neues Bild angezeigt und der nächste Teil der
+ Geschichte vorgelesen.
+ Dieser Vorgang wiederholt sich, bis alle Teile der Geschichte vorgelesen
+ wurden.
+ Danach informiert der Roboter, dass die Geschichte zu Ende ist und fragt,
+ ob man daran Gefallen gefunden hat.
+ Der Roboter geht nun wieder zur Anfangsfrage, ob man eine Geschichte hören
+ möchte und wiederholt die hier beschriebene Routine.
+ 
+\end_layout
+
+\begin_layout Section
+Beschreibung der Implementierung
+\end_layout
+
+\begin_layout Standard
+Unsere Implementierung haben wir auf denen von der Entwicklungsumgebung
+ Choregraphe mitgelieferten und von Hannes Eilers zur Verfügung gestellten
+ Libraries für den Roboter aufgebaut, da diese bereits alle essentiellen
+ Funktionalitäten des Roboters bieten.
+ Diese Module haben wir an unsere individuellen Wünsche angepasst.
+ Das Zentrum des Codes bildet unser „Main-Block“, den wir in Python programmiert
+ haben.
+ Er steuert den Programmablauf.
+ Alle anderen Module werden von dem „Main-Block“ aufgerufen und melden sich
+ bei diesem wieder zurück, wenn sie fertig sind.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Bilder/choreograph ausschnitt.png
+	lyxscale 20
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Choregraphe Ausschnitt der Projektstruktur
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+ Für die Bessere Verwaltung der Geschichten haben wir ein XML-File angelegt.
+ Dieses hält die Texte der Geschichten, die Dateinamen der Bilder inklusive
+ der Information, auf welcher Seite das auszuwählende Bild ist, die Dateinamen
+ der Sound-Dateien sowie die Reihenfolge, in der diese aufgerufen werden
+ sollen.
+ Der Algorithmus 1 zeigt die Struktur der XML anhand von Beispieldaten.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float algorithm
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset listings
+lstparams "basicstyle={\footnotesize}"
+inline false
+status open
+
+\begin_layout Plain Layout
+
+<story>             
+\end_layout
+
+\begin_layout Plain Layout
+
+	<name>Name der Geschichte</name>             
+\end_layout
+
+\begin_layout Plain Layout
+
+	<id>1</id>             
+\end_layout
+
+\begin_layout Plain Layout
+
+	<text>                 
+\end_layout
+
+\begin_layout Plain Layout
+
+		<abschnitt>Abschnitt 1</abschnitt>                 
+\end_layout
+
+\begin_layout Plain Layout
+
+		<abschnitt>Abschnitt 2</abschnitt>                 
+\end_layout
+
+\begin_layout Plain Layout
+
+		<abschnitt>Abschnitt 3</abschnitt>             
+\end_layout
+
+\begin_layout Plain Layout
+
+	</text>             
+\end_layout
+
+\begin_layout Plain Layout
+
+	<pictures>                 
+\end_layout
+
+\begin_layout Plain Layout
+
+		<picture>                     
+\end_layout
+
+\begin_layout Plain Layout
+
+			<url>Bild_zu_Abschnitt_1.png</url>                     
+\end_layout
+
+\begin_layout Plain Layout
+
+			<side>R</side>                 
+\end_layout
+
+\begin_layout Plain Layout
+
+		</picture>                 
+\end_layout
+
+\begin_layout Plain Layout
+
+		<picture>                     
+\end_layout
+
+\begin_layout Plain Layout
+
+			<url>Bild_zu_Abschnitt_2.png</url>                     
+\end_layout
+
+\begin_layout Plain Layout
+
+			<side>L</side>                 
+\end_layout
+
+\begin_layout Plain Layout
+
+		</picture>                 
+\end_layout
+
+\begin_layout Plain Layout
+
+		<picture>                     
+\end_layout
+
+\begin_layout Plain Layout
+
+			<url>Bild_zu_Abschnitt_3.png</url>                     
+\end_layout
+
+\begin_layout Plain Layout
+
+			<side>B</side>                 	
+\end_layout
+
+\begin_layout Plain Layout
+
+		</picture>             
+\end_layout
+
+\begin_layout Plain Layout
+
+	</pictures>             
+\end_layout
+
+\begin_layout Plain Layout
+
+	<sounds>                 
+\end_layout
+
+\begin_layout Plain Layout
+
+		<sound>Sound_zu_Abschnitt_1.mp3</sound>                 
+\end_layout
+
+\begin_layout Plain Layout
+
+		<sound>Sound_zu_Abschnitt_2.mp3</sound>                 
+\end_layout
+
+\begin_layout Plain Layout
+
+		<sound>Sound_zu_Abschnitt_3.mp3</sound>             
+\end_layout
+
+\begin_layout Plain Layout
+
+	</sounds>         
+\end_layout
+
+\begin_layout Plain Layout
+
+</story> 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+XML-Struktur
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+ Auch wenn die Struktur des XML-Files mit Hilfe einer Vorlage oder Anleitung
+ relativ leicht zu verstehen ist, ist die Eingabe des Textes und der Links
+ fehleranfällig und die Bilder- und Sound-Dateien müssen trotzdem noch an
+ der richtigen Stelle hinterlegt werden.
+ Um die Anforderung des leichten Editierrens und Hinzufügen von Geschichten
+ optimal zu erfüllen, sollte bei einer Weiterführung des Projekts eine Oberfläch
+e bereitgestellt werden.
+ Über diese Oberfläche können die Texte, Bilder und Sounds dann eingegeben
+ werden und es wird automatisch die zugehörige XML-Datei erzeugt und die
+ Bild- und Sound-Dateien werden direkt an der richtigen Stelle hinterlegt.
+\begin_inset Newline newline
+\end_inset
+
+Zu Beginn des Programms wird die XML-Datei mit Hilfe von „minidom“ eingelesen
+ und alle Informationen in einem Array abgelegt (Siehe Algorithmus 2).
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float algorithm
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset listings
+lstparams "basicstyle={\footnotesize},breaklines=true,tabsize=4"
+inline false
+status open
+
+\begin_layout Plain Layout
+
+mydoc = minidom.parse(self.behaviorAbsolutePath() + "/test.xml")
+\end_layout
+
+\begin_layout Plain Layout
+
+storyXML = mydoc.getElementsByTagName('story')
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+for story in storyXML:
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	self.storyMap[str(story.getElementsByTagName('name')[0].firstChild.data)] =
+ int(story.getElementsByTagName('id')[0].firstChild.data)
+\end_layout
+
+\begin_layout Plain Layout
+
+    textParts = []
+\end_layout
+
+\begin_layout Plain Layout
+
+	pictures = []
+\end_layout
+
+\begin_layout Plain Layout
+
+	sounds = []
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	for text in story.getElementsByTagName("abschnitt"):
+\end_layout
+
+\begin_layout Plain Layout
+
+		textParts.append(str(text.firstChild.data))
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	for picture in story.getElementsByTagName('picture'):
+\end_layout
+
+\begin_layout Plain Layout
+
+		pictures.append(Image(str(picture.getElementsByTagName('url')[0].firstChild.data),
+ str(picture.getElementsByTagName('side')[0].firstChild.data))
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	for sound in story.getElementsByTagName('sound'):
+\end_layout
+
+\begin_layout Plain Layout
+
+		sounds.append(str(sound.firstChild.data))
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	parts = []
+\end_layout
+
+\begin_layout Plain Layout
+
+	for x in xrange(0,len(textParts)):
+\end_layout
+
+\begin_layout Plain Layout
+
+		parts.append(Part(textParts[x],pictures[x],sounds[x]))
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	self.storys.append(Story(story.getElementsByTagName('name')[0].firstChild.data,
+ parts))
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Algoritthmus zum einlesen der XML mit python minidom
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+ Anhand der in der XML Angelegten Geschichten wird eine Auswahl erzeugt.
+ Die Auswahl über das Display wird mittel einer Website erzeugt.
+ Die Texte für die Buttons werden Dynamisch zur Laufzeit anhand der in der
+ XML hinterlegten Namen erzeugt (Siehe Algorithmus 3).
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float algorithm
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+var xhttp = new XMLHttpRequest();
+\end_layout
+
+\begin_layout Plain Layout
+
+xhttp.onreadystatechange = function() {
+\end_layout
+
+\begin_layout Plain Layout
+
+	if (this.readyState == 4 && this.status == 200) {
+\end_layout
+
+\begin_layout Plain Layout
+
+		myFunction(this);
+\end_layout
+
+\begin_layout Plain Layout
+
+	}
+\end_layout
+
+\begin_layout Plain Layout
+
+};
+\end_layout
+
+\begin_layout Plain Layout
+
+xhttp.open("GET", "../test.xml", true);
+\end_layout
+
+\begin_layout Plain Layout
+
+xhttp.send();
+\end_layout
+
+\begin_layout Plain Layout
+
+function myFunction(xml) {
+\end_layout
+
+\begin_layout Plain Layout
+
+	var xmlDoc = xml.responseXML;
+\end_layout
+
+\begin_layout Plain Layout
+
+	var x = xmlDoc.getElementsByTagName("story");
+\end_layout
+
+\begin_layout Plain Layout
+
+	console.log(x.length);
+\end_layout
+
+\begin_layout Plain Layout
+
+	var txt = "";
+\end_layout
+
+\begin_layout Plain Layout
+
+	for ( var i = 0; i < x.length ;i++) {
+\end_layout
+
+\begin_layout Plain Layout
+
+		document.getElementById("buttonSection").innerHTML += 
+\end_layout
+
+\begin_layout Plain Layout
+
+		"<button id='story" 
+\end_layout
+
+\begin_layout Plain Layout
+
+		+ x[i].getElementsByTagName("id")[0].childNodes[0]
+\end_layout
+
+\begin_layout Plain Layout
+
+		.nodeValue + "' class='twoChoices'><br />"
+\end_layout
+
+\begin_layout Plain Layout
+
+		+ x[i].getElementsByTagName("name")[0].childNodes[0]
+\end_layout
+
+\begin_layout Plain Layout
+
+		.nodeValue + "<br /></button>";
+\end_layout
+
+\begin_layout Plain Layout
+
+	}     
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Java Script zur Erzeugung der Auswahlbuttons
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+ Auch die Spracherkennung erhält die Wörter, die erkannt werden sollen,
+ dynamisch zur Laufzeit.
+ Hierfür werden die Namen der Geschichten, die zuvor im Main-Block aus der
+ XML Eingelesen worden, als String verknüpft (Siehe Algorithmus 4) und an
+ das Modul 
+\begin_inset Quotes gld
+\end_inset
+
+Spech Reco.
+\begin_inset Quotes grd
+\end_inset
+
+ übergeben.
+ Dort wird der bereits vorher angelegten Variable 
+\begin_inset Quotes gld
+\end_inset
+
+Word list
+\begin_inset Quotes grd
+\end_inset
+
+ der übergebene String zugewiesen (Siehe Algorithmus 5).
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float algorithm
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+string = ""
+\end_layout
+
+\begin_layout Plain Layout
+
+count = 0
+\end_layout
+
+\begin_layout Plain Layout
+
+for key in self.storyMap.iterkeys():
+\end_layout
+
+\begin_layout Plain Layout
+
+	string += key
+\end_layout
+
+\begin_layout Plain Layout
+
+	count += 1
+\end_layout
+
+\begin_layout Plain Layout
+
+	if count < len(self.storyMap):
+\end_layout
+
+\begin_layout Plain Layout
+
+		string += ';'
+\end_layout
+
+\begin_layout Plain Layout
+
+self.selectStory(string)
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Verkettung der Namen der Geschichten zu einem String
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Float algorithm
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+def onInput_onStart(self, string):
+\end_layout
+
+\begin_layout Plain Layout
+
+	self.setParameter("Word list", string)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Überschreiben der Variable 
+\begin_inset Quotes gld
+\end_inset
+
+Word list
+\begin_inset Quotes grd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+ Die Main-Funktion speichert welche Geschichte ausgewählt wurde und welcher
+ abschnitt gerade abläuft.
+ Anhand dieser Daten ruft sie nun nach und nach die einzelnen Module auf
+ und übergibt ihnen die relevanten Daten als String.
+ Der Algorithmus 6 zeigt, wie anhand des Abschnittes die Sound-Datei ausgewählt
+ und ihr Name als String als Funktionsparameter übergeben wird.
+ Die Funktion aktiviert nun den vordefinierten Output des Main-Moduls, welcher
+ dem Modul 
+\begin_inset Quotes gld
+\end_inset
+
+Play Sound
+\begin_inset Quotes grd
+\end_inset
+
+ das Signal gibt, die angegebene Sound-Datei ab zu spielen.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float algorithm
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+self.playSound("/" + str(story.parts[self.part].sound))
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Aufruf des Moduls zum Abspielen eines Sounds
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+ Da die Fachhochschule Kiel bereits seit längerer Zeit mit Einrichtungen
+ in der Altenpflege zusammenarbeitet, war die Eingabe mittels Touchscreens
+ auf den Robotern bereits für die Nutzung durch ältere Leute, ohne Vorwissen
+ zur Verwendung von Touchscreens, konfiguriert.
+ Wir mussten in diesem Bereich deshalb keine eigene Lösung implementieren.
+\begin_inset Newline newline
+\end_inset
+
+Anders wiederum war es bei der örtlichen Erkennung der Touch-Eingabe.
+ Wie in der XML-Datei in Algorithmus 1 zu sehen ist, speichern wir jeweils
+ ein Bild und die Seite des Bildes, auf der das richtige Bild ist.
+ Mittels der Angabe der Seite können wir nun den Bereich auf dem Touchscreen
+ bestimmen, indem eine Eingabe als korrekt anerkannt wird.
+ Hierfür benutzen wir die Auflösung des Touchscreens und teilen die Breite
+ in zwei gleiche Teile.
+ Die Koordinaten des Touch-Events, welche der Funktion übergeben werden,
+ werden dann mit denen der korrekten Seite verglichen und es wird der nächste
+ Teil der Geschichte initiiert, bzw.
+ der Vorgang wiederholt (Siehe Algorithmus 7).
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float algorithm
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+side = self.storys[self.selection - 1].parts[self.part].image.side
+\end_layout
+
+\begin_layout Plain Layout
+
+if (side == 'L' and coordinates[0] < 640) or 
+\end_layout
+
+\begin_layout Plain Layout
+
+   (side == 'R' and coordinates[0] > 640) or side == 'B':
+\end_layout
+
+\begin_layout Plain Layout
+
+	self.sayText("Sehr gut!")
+\end_layout
+
+\begin_layout Plain Layout
+
+	self.part = self.part + 1
+\end_layout
+
+\begin_layout Plain Layout
+
+	self.readtext()
+\end_layout
+
+\begin_layout Plain Layout
+
+else:
+\end_layout
+
+\begin_layout Plain Layout
+
+	if self.tried < 4:
+\end_layout
+
+\begin_layout Plain Layout
+
+		self.tried = self.tried + 1
+\end_layout
+
+\begin_layout Plain Layout
+
+		self.sayText("Bist du dir sicher? 
+\end_layout
+
+\begin_layout Plain Layout
+
+		Höre es dir nochmal an")
+\end_layout
+
+\begin_layout Plain Layout
+
+		time.sleep(1)
+\end_layout
+
+\begin_layout Plain Layout
+
+		self.block = False
+\end_layout
+
+\begin_layout Plain Layout
+
+	else:
+\end_layout
+
+\begin_layout Plain Layout
+
+		self.sayText("Schade aber wir machen weiter")
+\end_layout
+
+\begin_layout Plain Layout
+
+		self.part = self.part + 1
+\end_layout
+
+\begin_layout Plain Layout
+
+		self.readtext()
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Ausschnitt aus der Funktion zur Abfrage eines Touch-Events
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+ Wie man in Algorithmus 7 ebenfalls erkennen kann, konnten wir die maximale
+ Anzahl an Wiederholungen für ein Bild mittels einer einfachen Zählvariable
+ auf 5 Versuche beschränken.
+ Die Gefahr der Frustration durch zu häufige Fehlversuche konnte somit unterbund
+en werden.
+\end_layout
+
+\begin_layout Section
+Testverfahren
+\end_layout
+
+\begin_layout Standard
+Um eine erfolgreiche Teststrategie zu garantieren und die Weiterarbeit innerhalb
+ der Gruppe mit fremden Code problemlos zu gestalten, wurden zunächst eine
+ Richtlinien aufgestellt:
+\end_layout
+
+\begin_layout Itemize
+Der Code kompiliert ohne Fehlermeldungen
+\end_layout
+
+\begin_layout Itemize
+Der Code ist verständlich geschrieben
+\end_layout
+
+\begin_layout Itemize
+Der Code wurde mit dem anderen Programmierer besprochen
+\end_layout
+
+\begin_layout Standard
+Nach Abschluss der Programmierung eines Features wurde als erstes ein Komponente
+ntest
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Isolierter White-Box-Test einer einzelnen Komponente
+\end_layout
+
+\end_inset
+
+ durchgeführt, um die Funktionalität des Programmteils zu prüfen.
+ Im Anschluss wurden die Neuerungen ins Projekt eingepflegt und mittels
+ Integrationstest
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Mehrere Einzeltests, die die Interaktion abhängiger Komponenten eines Systems
+ testen
+\end_layout
+
+\end_inset
+
+ getestet, ob das Feature das Programm auf die geplante Art erweitert.
+\begin_inset Newline newline
+\end_inset
+
+Nachdem der korrekte Ablauf des Programms sichergestellt wurde, führten
+ wir wiederholte Tests zur Usability der Anwendung durch.
+ In Anbetracht unserer Zielgruppe legten wir bei diesen Tests besonderes
+ Augenmerk auf die Aspekte:
+\end_layout
+
+\begin_layout Itemize
+Lautstärke des Roboters
+\end_layout
+
+\begin_layout Itemize
+Sprechgeschwindigkeit des Roboters
+\end_layout
+
+\begin_layout Itemize
+Reaktion des Touchscreens auf Eingaben
+\end_layout
+
+\begin_layout Itemize
+Spracherkennung des Roboters
+\end_layout
+
+\begin_layout Itemize
+Zusammenhang zwischen Geschichte, Bild und Geräusch
+\end_layout
+
+\begin_layout Standard
+Da wir während der Entwicklungszeit mit dem Roboter örtlich an die beiden
+ Projekträume gebunden waren, setzte sich der Personenkreis zum testen nur
+ aus unserer Gruppe und Anwesenden anderer Gruppen zusammen.
+ Da viele der Testfälle sehr subjektiv sind holten und wir keine Erfahrung
+ in der Altenpflege haben, holten wir uns gelegentlich Feedback von erfahreneren
+ Personen im Raum.
+\begin_inset Newline newline
+\end_inset
+
+Die Lautstärke testeten wir, indem wir das Programm wiederholt durchlaufen
+ ließen und die Testpersonen dabei an unterschiedlichen Orten im Raum positionie
+rten.
+ Da die Bedienung des Programms sowieso in unmittelbarer Nähe des Roboters
+ erfolgen muss, legten wir uns schließlich darauf fest, dass die Geschichte
+ und Geräusche in etwa 5 Meter Entfernung noch klar und deutlich zu verstehen
+ sein sollten.
+\begin_inset Newline newline
+\end_inset
+
+Für die Sprechgeschwindigkeit wurden diverse Teile der Geschichten wiederholt
+ vorgelesen.
+ Für die finale Konfiguration verließen wir uns hauptsächlich auf Feedback
+ der Testpersonen.
+\begin_inset Newline newline
+\end_inset
+
+Auch der Touchscreen wurde mittels wiederholter Eingaben getestet.
+ Wir achteten dabei darauf, wie präzise die Koordinaten des Druckpunktes
+ übergeben werden und, dass wir die verschiedenen Arten der Bedienung (vgl.
+ Kapitel 6) alle ausreichend testeten.
+ Als Ergebnis konnte festgehalten werden, dass die Vorkonfiguration der
+ Roboter bereits unseren Anforderungen entsprechend funktionierte.
+\begin_inset Newline newline
+\end_inset
+
+Bei den Tests zur Spracherkennung haben wir die Testpersonen wieder im Raum
+ verbreitet platziert und Befehle vorsprechen lassen.
+ Wir stellten fest, dass die Spracherkennung, für Ja-Nein-Fragen und freie
+ Fragen, wie die Geschichtenauswahl, nur in unmittelbarer Nähe zum Roboter
+ zuverlässig funktionierte.
+ Da die restliche Bedienung des Programms allerdings sowieso nicht von weiter
+ weg durchgeführt werden kann, sahen wir auch dieses Testergebnis als zufriedens
+tellend an.
+\begin_inset Newline newline
+\end_inset
+
+Letztlich testeten wir noch den Zusammenhang zwischen den einzelnen Geschichten,
+ Bildern und Geräuschen, indem wir diese wiederholt vorspielten.
+ Da dieser Aspekt sehr subjektiv ist, verließen wir uns fast ausschließlich
+ auf Feedback unserer Testpersonen.
+ Erfahrungen mit Demenzerkrankten wurden dabei besonders stark gewichtet.
+\end_layout
+
+\begin_layout Section
+Deskription des Einsatzes
+\end_layout
+
+\begin_layout Standard
+Vor Beginn des Einsatzes wurden sich, wie bereits in Kapitel 5.4 genannt,
+ schon mit möglichen Abläufen auseinandergesetzt, die es zu beachten gibt.
+ Die Evaluationsbögen sind für die Reflektion von starker Bedeutung und
+ sollen Hilfestellung für weitere Verbesserungen dienen.
+ Des Weiteren wurde sich mit der Gruppengröße beschäftigt, die zwischen
+ ein bis maximal vier Personen liegen darf, um ein gutes Ergebnis zu erzielen.
+ Sollte es zu technischen Komplikationen kommen, gibt es bereits einen „Plan
+ B“.
+ Der besagt, dass beim Ausfall des Roboters die Geschichten von uns persönlich
+ vorgelesen werden und danach mit den Personen in der Einrichtung ins Gespräch
+ gegangen wird.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Der Einsatz fand am 16.01.2019 in der Einrichtung Gustav-Schatz-Hof in Kiel
+ Gaarden statt.
+ Der Treffpunkt war um 9.45Uhr vor der Einrichtung, um den Roboter vorzubereiten.
+ In der Einrichtung sollte das von uns erstellte Programm vorgeführt und
+ die Tauglichkeit für die Einrichtung geprüft werden.
+ Die Dauer des Aufenthaltes befand sich bei ca.
+ einer Stunde.
+ Zum Anfang sollte der Roboter erst altbekannte Programme mit den Bewohnern
+ ausführen und später unser Programm ausführen.
+ Dabei wurden die bekannten Programme in einer großen Gruppe vorgeführt
+ und das Programm unserer Gruppe separat mit zwei Personen.
+\end_layout
+
+\begin_layout Section
+Beobachtungsprotokoll
+\end_layout
+
+\begin_layout Standard
+Unsere Gruppe traf sich um 9.45 Uhr am 16.01.19 vor der Einrichtung Gustav-Schatz-H
+of in Kiel.
+ Zuerst wurde der Roboter entladen und in das Gebäude gebracht.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Darauf erfolgte die Verbindungen des Roboters mit dem WLAN.
+ Hierbei kam es zu Komplikationen.
+ Die ersten 30 Minuten innerhalb der Einrichtung, konnte der Roboter nicht
+ gestartet werden, sodass sich die Vorführung verzögerte.
+ Die Bewohner saßen im Aufenthaltsraum in einem großen Stuhlkreis zusammen.
+ Einige waren wach und gespannt auf den Roboter.
+ Andere wiederum schliefen oder waren mit den Gedanken woanders.
+ Die Leitung, die Mitarbeiter sowie die Bewohner waren jedoch entspannt
+ und drängten nicht zur Hektik, als der Roboter nicht funktionierte.
+ Sie machten Späße, dass der Roboter zu lange wach gewesen sei und nicht
+ gut geschlafen habe.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Nachdem der Roboter sich mit dem WLAN und dem Computer verband, konnte der
+ Roboter eingesetzt werden.
+ Hierbei stellte sich die Frage, ob das Filmen der Menschen in Ordnung ist.
+ Dabei wurde den Mitarbeitern versichert, dass dies nur Hochschulzwecken
+ dient und nicht veröffentlicht wird, sowie keine Nennung von Namen erfolgt.
+ Das Filmen durch ein Handy wurde erlaubt.
+ Zuerst wurde ein, sich bereits auf dem Roboter befindendes, Programm ausprobier
+t.
+ Die Bewohner und die Mitarbeiter tanzten und sangen.
+ Wir als Gruppe haben uns erst einmal in den Hintergrund gestellt, da unser
+ Programm noch nicht durchgeführt wurde und ein Mitarbeiter wusste, wie
+ er mit den Bewohnern und mit dem Roboter umzugehen hatte, damit die Bedienung
+ erfolgreich war.
+ Es wurden weitere Programme mit den Bewohnern ausprobiert.
+ Um ca.
+ 10.45 Uhr wurden die Bewohner in einen anderen Raum geführt, mittels einer
+ „Polognese“.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Wir folgten der Gruppe und warteten auf weitere Anweisungen der Leitung
+ oder der Mitarbeiter.
+ Diese sagten, dass wir unser Programm mit zwei Damen durchgehen können.
+ Dementsprechend sind wir mit dem Roboter und den zwei Damen in einen separaten
+ Raum gegangen.
+ Nachdem sich die Damen auf jeweils einen Stuhl setzten, wurde Ihnen erklärt,
+ wie dass Programm funktioniere.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Es wurde gesagt, dass sie einen Teil einer Geschichte hören würden und danach
+ eine kurze Pause einsetzt.
+ In dieser Pause erscheinen ein Bild und ein Geräusch.
+ Die Damen müssten das passende Bild auf dem Bildschirm berühren und die
+ Geschichte würde weiter gehen.
+ Nach der Erklärung wurde das Programm gestartet.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Die erste Dame bekam „der Froschkönig“ vorgespielt und konnte unser Programm
+ auch bis zum Ende durchspielen.
+ Komplikationen gab es keine.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Bilder/Froschkönig_1.jpeg
+	width 100text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Überlegungen beim Froschkönig
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Bilder/Froschkönig_2.jpeg
+	width 100text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Spaß beim Hören des Froschkönigs
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+ Die zweite Dame bekam „Sterntaler“ vorgespielt.
+ Auch hier gab es keine Probleme mit der Haptik.
+ Jedoch war die Dame einmal zu schnell in der Ausführung, sodass der Roboter
+ einen Part der Geschichte übersprang, danach aber problemlos weiterlief.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Bilder/Sterntaler_1.jpeg
+	width 100text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Zu schnelle Auswahl bei Sterntaler
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Bilder/Sterntaler_2.jpeg
+	width 100text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Normale Auswahl bei Sterntaler
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+ Am Ende wurde sich von unserer Seite bei den beiden Damen bedankt und gefragt,
+ wie es ihnen gefallen habe.
+ Die Damen sagten, dass ihnen die Geschichten gefallen haben.
+ Somit verabschiedeten wir uns, packten den Roboter zusammen und verließen
+ die Einrichtung ca.
+ um 11.05 Uhr.
+ 
+\end_layout
+
+\begin_layout Section
+Auswertung und Reflexion der Anwendung in der Praxis
+\end_layout
+
+\begin_layout Standard
+Die Gruppe sollte sich um 9.45 Uhr treffen, um den Roboter vorzubereiten,
+ sodass um 10 Uhr mit der Vorführung des Roboters begonnen werden konnte.
+ Leider verzögerte sich das Treffen, aufgrund dessen, dass ein Mitglied
+ der Gruppe die Einrichtung nicht gefunden hatte.
+ An dieser Stelle sollte sich im Vorhinein damit auseinandergesetzt werden,
+ wo die Einrichtung ist, sodass es nicht zu weiteren Verspätungen kommt.
+ 
+\begin_inset Newline newline
+\end_inset
+
+In der Einrichtung angekommen dauerte es ganze 30 Minuten bevor der Roboter
+ gestartet werden konnte.
+ Es gab Schwierigkeiten, denn der Roboter wollte sich nicht mit dem WLAN
+ und den Computer verbinden.
+ Seitens der Einrichtung wurde das Passwort für das WLAN am Vortag erst
+ geändert.
+ Die Mitarbeiter_innen haben jedoch versucht, den Techniker zu erreichen,
+ was auch dazu führte, dass das neue Passwort durchgegeben werden konnte.
+ Jedoch konnte sich der Roboter nach 30 Minuten über ein anderes Netzwerk
+ verbinden.
+\begin_inset Newline newline
+\end_inset
+
+Die Stimmung in der Einrichtung war trotz der Wartezeit von 30 Minuten positiv.
+ Die Bewohnerinnen scherzten mit dem Mitarbeiter_innen, dass der Roboter
+ ja müde war.
+ Die Gelassenheit der Gruppe übertrug sich ebenfalls aus uns, sodass wir
+ ruhig und bedacht das Problem feststellen konnten.
+ Hierbei wäre es sinnvoll den Roboter vorher über einen Hotspot mit dem
+ Handy zu verbinden, sodass der Roboter sich schon verbunden hat, bevor
+ er in die Einrichtung gebracht wurde.
+\begin_inset Newline newline
+\end_inset
+
+Als später verschiedene Programme mit den Bewohnerinnen im großen Stuhlkreis
+ ausprobiert worden sind, kam es zu Schwierigkeiten in der Bedienung des
+ Roboters.
+ Unsere Gruppe überlegte, ob unser Programm nicht zu kompliziert für die
+ Bewohner sei.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Nachdem die Vorführung vor der gesamten Bewohnerschaft durchgeführt wurde,
+ konnte unsere Gruppe das Programm mit zwei Damen ausprobieren.
+ Hierbei wurden die beiden Damen im Voraus bestimmt, da die Einrichtung
+ über unser Programm informiert war.
+ Es wurden gezielt Damen ausgesucht, die für das Programm geeignet waren.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Die erste Geschichte „der Froschkönig“ funktionierte ohne weitere Schwierigkeite
+n.
+ Bei der Geschichte „Sterntaler“ kam es zu Schwierigkeiten, da ein Part
+ der Geschichte übersprungen wurde.
+ Hier könnte es zu einer besseren Einweisung des Programms kommen, sodass
+ die Bewohner besser verstehen, was sie wann drücken müssen.
+ In dem Fall wurde zu schnell auf das Tablett gedrückt, sodass der Computer
+ den richtigen Part nicht abspielen konnte.
+ Das Problem könnte behoben werden, indem den Damen vorher erklärt werden
+ muss, dass sie den Roboter seinen Satz zu Ende reden lassen sollten.
+ Alternativ könnte man auch die Verarbeitung von Touch-Eingaben im Programm
+ sperren, solange der Roboter noch vorliest.
+ Wir konnten feststellen, dass die beiden Damen ansonsten keine weiteren
+ Probleme mit der Anwendung hatten.
+ Weder beim Verständnis, noch bei der Bedienung des Roboters.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Am Ende wurden die Damen noch befragt, wie sie das Programm fanden.
+ Den beiden Damen aus unserem Versuch hat das Programm gefallen und sie
+ wirkten begeistert von diesem.
+ Diese Reaktion bestätigte uns in der erfolgreichen Umsetzung der in Kapitel
+ 5.1 genannten Anwendungsfälle.
+\begin_inset Newline newline
+\end_inset
+
+Unsere Gruppe war vom Ergebnis positiv überrascht und erleichtert, da sich
+ während des Aufenthaltes Unsicherheiten über die Komplexität ausbreiteten.
+ Auffällig war jedoch, dass unsere Gruppe die Reflektionsbögen für die Einrichtu
+ng nicht beachtet hat.
+ Es wäre interessant gewesen, die Einschätzung der Mitarbeiter_innen zu
+ erfahren, um das Programm dahingehend zu verbessern.
+ Ein weiter Punkt ist, dass unsere Gruppe nicht die komplette Durchführung
+ in der Einrichtung übernommen hat.
+ Viele Aspekte von Mitarbeiter_innen übernommen.
+ Hier könnte sich im Vorhinein näher mit der Ausführung beschäftigt werden,
+ sodass mehr Eigeninitiative übernommen wird.
+ Die Erfahrungen die wir durch die selbstständige Durchführung der anderen
+ Programme mit den Erkrankten hätten sammeln können, hätten viele Einblicke
+ in die Problematik des Umgangs und der Bedienung des Roboters durch Demenzerkra
+nkte gebracht.
+\begin_inset Newline newline
+\end_inset
+
+Zusammenfassend lässt sich jedoch sagen, dass unser Programm für ausgewählte
+ Personen gut eignet ist und diesen Personenkreis gefällt.
+ Interessant wäre jedoch auch ein Test mit einer Dame in einem weiter fortgeschr
+ittenen Krankheitsstadium gewesen, um unsere Ergebnisse besser einordnen
+ zu können.
+ Ein weiter Aspekt ist, dass der Roboter nur die Geschichten vorliest und
+ die Mitarbeit der Damen brauchte.
+ Die Geschichte wird den Damen nur vorgelesen.
+ Dabei können Geschichten, die einen biografischen Hintergrund bei den Bediener_
+innen ansprechen, zu Problemen führen.
+ Gerade Geschichten aus den Kindertagen sind noch stark in den Köpfen der
+ Menschen verankert.
+ Es sollte nach jeder Bedienung des Roboters auf die Bedürfnisse der Menschen
+ eingegangen werden.
+ Daher ist es wichtig, dass immer ein Mitarbeiter_in bei der Bedienung des
+ Roboters dabei ist.
+ Diese Person kann im konkreten Fall, die emotionalen Ausbrüche der Bewohner_inn
+en begleiten und lässt diese nicht allein mit ihren Gefühlen.
+ Die Gefühle können von Person zu Person unterschiedlich sein.
+ In unserem Fall gab es keine sogenannten Trigger für die Damen.
+ Des Weiteren war ebenfalls ein Mitarbeiter dabei, als das Programm durchgeführt
+ worden ist.
+\end_layout
+
+\begin_layout Section
+Fazit
+\end_layout
+
+\begin_layout Standard
+Insgesamt konnten wir das Projekt trotz eines fehlenden Gruppenmitglieds
+ innerhalb des gegebenen Zeitrahmens erfolgreich abschließen.
+\begin_inset Newline newline
+\end_inset
+
+Wir konnten unsere Anforderungen zufriedenstellend erfüllen.
+ Die Möglichkeit der Erweiterung und Verfeinerung der Anwendung ist gegeben.
+ So könnte man beispielsweise problemlos weitere Geschichten hinzufügen,
+ die Benutzeroberfläche anpassen oder eine eigene Benutzeroberfläche zum
+ Erstellen und Verändern der Geschichten entwickeln.
+\begin_inset Newline newline
+\end_inset
+
+Auch der Besuch in der Demenz-WG war ein Erfolgserlebnis, auf dem wir bei
+ einer möglichen Fortsetzung des Projekts aufbauen könnten, um das Produkt
+ weiter zu optimieren.
+\begin_inset Newline newline
+\end_inset
+
+Des Weiteren war es uns möglich Problematiken aus einem anderen Fachbereich
+ zu erleben und zu verstehen.
+ Die enge Zusammenarbeit während des Projektverlaufs gab uns die Möglichkeit
+ unsere interdisziplinären Kompetenzen zu erweitern und lieferte uns einen
+ Grundstein auf dem wir in unserer weiteren beruflichen Laufbahn aufbauen
+ können.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList figure
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+\begin_inset FloatList algorithm
+
+\end_inset
+
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+Literaturverzeichnis
+\end_layout
+
+\begin_layout Itemize
+Alzheimer Gesellschaft Vest Recklinghausen e.V.
+ (o.J.): Geschichten zum Vorlesen für Demenzkranke Menschen http://www.alzheimer-ge
+sellschaft-recklinghausen.de/index.php?id=26
+\end_layout
+
+\begin_layout Itemize
+Ebede: Forum für Ergotherapie bei Demenz (2007): Geschichten für Senioren
+ - Demenzkranken erfolgreich vorlesen.
+ https://www.ebede.net/wissen-und-praxis/therapieformen/363-geschichten-fuer-senio
+ren-demenzkranken-erfolgreich-vorlesen 
+\end_layout
+
+\begin_layout Itemize
+UKV: Union Krankenversicherung (2017): Demenz und die Macht der Worte https://ww
+w.ukv.de/content/service/gesundheit-aktuell/demenz-und-die-macht-der-worte/
+ 05.01.2019, 2:53Uhr
+\end_layout
+
+\begin_layout Itemize
+Vier, Marianne; Schröer, Lothar (2016): Märchen gegen das Vergessen.
+ Wie Sie mit Vorlesen Menschen mit Demenz erreichen.
+ Mit 40 Märchen.
+ ISBN: 978-3-466-34623-3 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Kenntlichmachung der Berichtteile
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_body
+\end_document
