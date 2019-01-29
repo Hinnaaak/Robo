@@ -110,6 +110,15 @@ Sarah Skoda Matrikel-Nr.
  931 666
 \end_layout
 
+\begin_layout Abstract
+Abschlussbericht zum Projekt interaktives Geschichtenvorlesen, im Rahmen
+ des Moduls 17 / BI 136 Humanoide Roboter in der Pflege .
+ Fachhochschule Kiel, Hochschule für angewandte Wissenschaften.
+ Fachbereich Soziale Arbeit und Gesundheit, Studiengang Soziale Arbeit.
+ Fachbereich Informatik und Elektrotechnick, Studiengang Informationstechnologie.
+ Dozent/in Hannes Eilers, Gaby Lenz, Jens Lüssem.
+\end_layout
+
 \begin_layout Standard
 \align center
 \begin_inset Newpage pagebreak
@@ -2421,11 +2430,56 @@ Des Weiteren war es uns möglich Problematiken aus einem anderen Fachbereich
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Section*
 \begin_inset FloatList algorithm
 
 \end_inset
 
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+Literaturverzeichnis
+\end_layout
+
+\begin_layout Itemize
+Alzheimer Gesellschaft Vest Recklinghausen e.V.
+ (o.J.): Geschichten zum Vorlesen für Demenzkranke Menschen http://www.alzheimer-ge
+sellschaft-recklinghausen.de/index.php?id=26
+\end_layout
+
+\begin_layout Itemize
+Ebede: Forum für Ergotherapie bei Demenz (2007): Geschichten für Senioren
+ - Demenzkranken erfolgreich vorlesen.
+ https://www.ebede.net/wissen-und-praxis/therapieformen/363-geschichten-fuer-senio
+ren-demenzkranken-erfolgreich-vorlesen 
+\end_layout
+
+\begin_layout Itemize
+UKV: Union Krankenversicherung (2017): Demenz und die Macht der Worte https://ww
+w.ukv.de/content/service/gesundheit-aktuell/demenz-und-die-macht-der-worte/
+ 05.01.2019, 2:53Uhr
+\end_layout
+
+\begin_layout Itemize
+Vier, Marianne; Schröer, Lothar (2016): Märchen gegen das Vergessen.
+ Wie Sie mit Vorlesen Menschen mit Demenz erreichen.
+ Mit 40 Märchen.
+ ISBN: 978-3-466-34623-3 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Kenntlichmachung der Berichtteile
+\end_layout
+
+\begin_layout Standard
 
 \end_layout
 

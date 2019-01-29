@@ -11,9 +11,15 @@
 
 \lhead{} 
 
-\chead{Humanoide Roboter in der Pflege - Abschlussbericht - Interaktive Geschichten Malte Hansen, Luca Schüller, Sarah Skoda}
+\chead{Humanoide Roboter in der Pflege - Abschlussbericht - Interaktive Geschichten}
 
 \rhead{}
+
+\lfoot{Malte H., Luca S., Sarah S. - Fachhochschule Kiel WS18/19}
+
+\cfoot{}
+
+\rfoot{\thepage}
 
 \renewcommand{\headrulewidth} {0.0pt} 
 \renewcommand{\footrulewidth} {0.0pt} 
@@ -111,12 +117,25 @@ Sarah Skoda Matrikel-Nr.
 \end_layout
 
 \begin_layout Abstract
+\noindent
 Abschlussbericht zum Projekt interaktives Geschichtenvorlesen, im Rahmen
- des Moduls 17 / BI 136 Humanoide Roboter in der Pflege .
- Fachhochschule Kiel, Hochschule für angewandte Wissenschaften.
- Fachbereich Soziale Arbeit und Gesundheit, Studiengang Soziale Arbeit.
+ des Moduls 17 / BI 136 Humanoide Roboter in der Pflege.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Fachhochschule Kiel, Hochschule für angewandte Wissenschaften.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Fachbereich Soziale Arbeit und Gesundheit, Studiengang Soziale Arbeit.
  Fachbereich Informatik und Elektrotechnick, Studiengang Informationstechnologie.
- Dozent/in Hannes Eilers, Gaby Lenz, Jens Lüssem.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Dozent/in: Hannes Eilers, Gaby Lenz, Jens Lüssem.
 \end_layout
 
 \begin_layout Standard
@@ -2465,22 +2484,7 @@ w.ukv.de/content/service/gesundheit-aktuell/demenz-und-die-macht-der-worte/
 Vier, Marianne; Schröer, Lothar (2016): Märchen gegen das Vergessen.
  Wie Sie mit Vorlesen Menschen mit Demenz erreichen.
  Mit 40 Märchen.
- ISBN: 978-3-466-34623-3 
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section*
-Kenntlichmachung der Berichtteile
-\end_layout
-
-\begin_layout Standard
-
+ ISBN: 978-3-466-34623-3
 \end_layout
 
 \end_body
