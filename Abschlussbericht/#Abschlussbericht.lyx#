@@ -11,11 +11,11 @@
 
 \lhead{} 
 
-\chead{Humanoide Roboter in der Pflege - Interaktive Geschichten}
+\chead{Humanoide Roboter in der Pflege - Abschlussbericht - Interaktive Geschichten}
 
 \rhead{}
 
-\lfoot{M. Hansen, L. Schüller, S. Skoda}
+\lfoot{Malte H., Luca S., Sarah S. - Fachhochschule Kiel WS18/19}
 
 \cfoot{}
 
@@ -97,238 +97,49 @@
 
 \begin_body
 
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-thispagestyle{empty}
+\begin_layout Title
+Humanoide Roboter in der Pflege
 \end_layout
 
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center} 
-\backslash
-begin{tabular}{p{
-\backslash
-textwidth}}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center} 
-\backslash
-includegraphics[scale=0.5]{Bilder/logos.jpg} 
-\backslash
-end{center}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center} 
-\backslash
-LARGE{
-\backslash
-textsc{ Wintersemester 2018/2019
-\backslash
-
-\backslash
- }} 
-\backslash
-end{center}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center} 
-\backslash
-large{Fachbereich
-\backslash
-
-\backslash
- Informatik und Elektrotechnik 
-\backslash
-
-\backslash
- Soziale Arbeit und Gesundheit 
-\backslash
-
-\backslash
-} 
-\backslash
-end{center}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center} 
-\backslash
-textbf{
-\backslash
-Large{Projektbericht}}
-\backslash
-
-\backslash
- BI 136 Humanoide Roboter in der Pflege 
-\backslash
-end{center}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center} vorgelegt von 
-\backslash
-end{center}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center} 
-\backslash
-begin{tabular}{ccc} 
-\backslash
-large{
-\backslash
-textbf{Malte Hansen}} & 
-\backslash
-large{
-\backslash
-textbf{Luca Schüller}} & 
-\backslash
-large{
-\backslash
-textbf{Sarah Skoda}}
-\backslash
-
-\backslash
- 
-\backslash
-small{Matr.-Nr.: 928765} & 
-\backslash
-small{Matr.-Nr.: 928719} & 
-\backslash
-small{Matr.-Nr.: 931666}
-\backslash
-
-\backslash
-
-\backslash
-
-\backslash
- 
-\backslash
-end{tabular} 
-\backslash
-end{center}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center} 
-\backslash
-large{im Januar 2019} 
-\backslash
-end{center}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center} 
-\backslash
-begin{tabular}{lll} 
-\backslash
-textbf{Dozent/in:} J.
- Lüssem & G.
- Lenz & H.
- Eilers
-\backslash
-
-\backslash
- 
-\backslash
-end{tabular} 
-\backslash
-end{center}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{tabular} 
-\backslash
-end{center}
-\end_layout
-
+\begin_layout Author
+Malte Hansen Matrikel-Nr.
+ 928 765
+\begin_inset Newline newline
 \end_inset
 
+Luca Schüller Matrikel-Nr.
+ 928 719
+\begin_inset Newline newline
+\end_inset
 
+Sarah Skoda Matrikel-Nr.
+ 931 666
+\end_layout
+
+\begin_layout Abstract
+\noindent
+Abschlussbericht zum Projekt interaktives Geschichtenvorlesen, im Rahmen
+ des Moduls 17 / BI 136 Humanoide Roboter in der Pflege.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Fachhochschule Kiel, Hochschule für angewandte Wissenschaften.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Fachbereich Soziale Arbeit und Gesundheit, Studiengang Soziale Arbeit.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Fachbereich Informatik und Elektrotechnick, Studiengang Informationstechnologie.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Dozent/in: Hannes Eilers, Gaby Lenz, Jens Lüssem.
 \end_layout
 
 \begin_layout Standard
@@ -461,13 +272,6 @@ Der Gruppe wurde berichtet, dass es in der Demenz-WG Menschen gibt, die
  für jeden etwas dabei sein um Spaß an dem Roboter zu haben.
 \end_layout
 
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
 \begin_layout Section
 Warum sollte demenzkranken Menschen vorlesen werden?
 \end_layout
@@ -570,13 +374,7 @@ g darstellen können.
  Durch Bilder oder Gegenstände kann die Gefühlswelt der Menschen direkt
  angesprochen werden.
  Dies unterstützt das Märchen in seiner Wirkung.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
+ 
 \end_layout
 
 \begin_layout Section
@@ -832,13 +630,6 @@ Sind die Texte thematisch angemessen?
 \begin_layout Standard
 Der Evaluationsbogen dient für eine bessere Reflektion nach der Vorführung
  des Programms.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
 \end_layout
 
 \begin_layout Section
@@ -1373,7 +1164,7 @@ e bereitgestellt werden.
 \begin_inset Newline newline
 \end_inset
 
-Zu Beginn des Programms wird die XML-Datei mittels „minidom“ eingelesen
+Zu Beginn des Programms wird die XML-Datei mit Hilfe von „minidom“ eingelesen
  und alle Informationen in einem Array abgelegt (Siehe Algorithmus 2).
 \begin_inset Newline newline
 \end_inset
@@ -1513,7 +1304,7 @@ for story in storyXML:
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Algoritthmus zum Einlesen der XML mit python minidom
+Algoritthmus zum einlesen der XML mit python minidom
 \end_layout
 
 \end_inset
@@ -2214,13 +2005,6 @@ Letztlich testeten wir noch den Zusammenhang zwischen den einzelnen Geschichten,
  Erfahrungen mit Demenzerkrankten wurden dabei besonders stark gewichtet.
 \end_layout
 
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
 \begin_layout Section
 Deskription des Einsatzes
 \end_layout
@@ -2387,13 +2171,6 @@ Spaß beim Hören des Froschkönigs
 
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
 \end_inset
 
 
@@ -2627,13 +2404,6 @@ n begleiten und lässt diese nicht allein mit ihren Gefühlen.
  In unserem Fall gab es keine sogenannten Trigger für die Damen.
  Des Weiteren war ebenfalls ein Mitarbeiter dabei, als das Programm durchgeführt
  worden ist.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
 \end_layout
 
 \begin_layout Section

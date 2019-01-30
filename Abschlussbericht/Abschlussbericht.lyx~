@@ -11,9 +11,15 @@
 
 \lhead{} 
 
-\chead{Humanoide Roboter in der Pflege - Abschlussbericht - Interaktive Geschichten Malte Hansen, Luca Schüller, Sarah Skoda}
+\chead{Humanoide Roboter in der Pflege - Abschlussbericht - Interaktive Geschichten}
 
 \rhead{}
+
+\lfoot{Malte H., Luca S., Sarah S. - Fachhochschule Kiel WS18/19}
+
+\cfoot{}
+
+\rfoot{\thepage}
 
 \renewcommand{\headrulewidth} {0.0pt} 
 \renewcommand{\footrulewidth} {0.0pt} 
@@ -91,32 +97,231 @@
 
 \begin_body
 
-\begin_layout Title
-Humanoide Roboter in der Pflege
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center} 
+\backslash
+begin{tabular}{p{
+\backslash
+textwidth}}
 \end_layout
 
-\begin_layout Author
-Malte Hansen Matrikel-Nr.
- 928 765
-\begin_inset Newline newline
-\end_inset
+\begin_layout Plain Layout
 
-Luca Schüller Matrikel-Nr.
- 928 719
-\begin_inset Newline newline
-\end_inset
 
-Sarah Skoda Matrikel-Nr.
- 931 666
+\backslash
+begin{center} 
+\backslash
+includegraphics[scale=0.5]{Bilder/logos.jpg} 
+\backslash
+end{center}
 \end_layout
 
-\begin_layout Abstract
-Abschlussbericht zum Projekt interaktives Geschichtenvorlesen, im Rahmen
- des Moduls 17 / BI 136 Humanoide Roboter in der Pflege .
- Fachhochschule Kiel, Hochschule für angewandte Wissenschaften.
- Fachbereich Soziale Arbeit und Gesundheit, Studiengang Soziale Arbeit.
- Fachbereich Informatik und Elektrotechnick, Studiengang Informationstechnologie.
- Dozent/in Hannes Eilers, Gaby Lenz, Jens Lüssem.
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center} 
+\backslash
+LARGE{
+\backslash
+textsc{ Wintersemester 2018/2019
+\backslash
+
+\backslash
+ }} 
+\backslash
+end{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center} 
+\backslash
+large{Fachbereich
+\backslash
+
+\backslash
+ Informatik und Elektrotechnik 
+\backslash
+
+\backslash
+ Soziale Arbeit und Gesundheit 
+\backslash
+
+\backslash
+} 
+\backslash
+end{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center} 
+\backslash
+textbf{
+\backslash
+Large{Projektbericht}}
+\backslash
+
+\backslash
+ BI 136 Humanoide Roboter in der Pflege 
+\backslash
+end{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center} vorgelegt von 
+\backslash
+end{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center} 
+\backslash
+begin{tabular}{ccc} 
+\backslash
+large{
+\backslash
+textbf{Malte Hansen}} & 
+\backslash
+large{
+\backslash
+textbf{Luca Schüller}} & 
+\backslash
+large{
+\backslash
+textbf{Sarah Skoda}}
+\backslash
+
+\backslash
+ 
+\backslash
+small{Matr.-Nr.: 928765} & 
+\backslash
+small{Matr.-Nr.: 928719} & 
+\backslash
+small{Matr.-Nr.: 931666}
+\backslash
+
+\backslash
+
+\backslash
+
+\backslash
+ 
+\backslash
+end{tabular} 
+\backslash
+end{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center} 
+\backslash
+large{im Januar 2019} 
+\backslash
+end{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center} 
+\backslash
+begin{tabular}{lll} 
+\backslash
+textbf{Dozent/in:} J.
+ Lüssem & G.
+ Lenz & H.
+ Eilers
+\backslash
+
+\backslash
+ 
+\backslash
+end{tabular} 
+\backslash
+end{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tabular} 
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -188,6 +393,13 @@ Leider fiel in unserer Gruppe eine Sozialpädagogik Studentin nach den ersten
  des Projekts zu dritt erledigten.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Zielsetzung
 \end_layout
@@ -240,6 +452,13 @@ Der Gruppe wurde berichtet, dass es in der Demenz-WG Menschen gibt, die
  Die Idee den Roboter Geschichten vorlesen zu lassen war geboren.
  Durch die Auswahl von Geschichten mit unterschiedlichsten Themen sollte
  für jeden etwas dabei sein um Spaß an dem Roboter zu haben.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -344,7 +563,13 @@ g darstellen können.
  Durch Bilder oder Gegenstände kann die Gefühlswelt der Menschen direkt
  angesprochen werden.
  Dies unterstützt das Märchen in seiner Wirkung.
- 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -602,6 +827,13 @@ Der Evaluationsbogen dient für eine bessere Reflektion nach der Vorführung
  des Programms.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Beschreibung der Technischen Anforderung
 \end_layout
@@ -643,9 +875,9 @@ Bibliothek mit mehreren Programmbausteinen, für z.B.
 \end_inset
 
 Da die Anwendung unabhängig von anderer Technik und Wissensstand der Mitarbeiter
- in der Pflegeeinrichtung zum Einsatz kommen soll, musste das Programm ohne
- Internetzugang funktionieren und sollte ohne vorherige Konfiguration der
- Pflegekräfte der Einrichtung einsetzbar sein.
+_innen in der Pflegeeinrichtung zum Einsatz kommen soll, musste das Programm
+ ohne Internetzugang funktionieren und sollte ohne vorherige Konfiguration
+ der Pflegekräfte der Einrichtung einsetzbar sein.
  Daraus ergibt sich auch die Anforderung, dass neue Geschichten leicht und
  ohne umfassende Vorkenntnisse hinzugefügt, bzw.
  vorhandene Geschichten verändert werden können.
@@ -699,8 +931,8 @@ Neben der Art der Eingabe muss natürlich auch darauf geachtet werden, dass
  Es sollten aber auch nicht, beispielsweise durch sehr langes Drücken, mehrere
  Auswahlen registriert werden.
  Auch die Größe des Ziels der Touch-Abfrage darf nicht zu klein sein, da
- ein kleines Ziel von unerfahrenen Benutzern schnell verfehlt werden kann
- und dies potenzielle Frustrationen hervorruft.
+ ein kleines Ziel von unerfahrenen Benutzer_innen schnell verfehlt werden
+ kann und dies potenzielle Frustrationen hervorruft.
 \begin_inset Newline newline
 \end_inset
 
@@ -1134,7 +1366,7 @@ e bereitgestellt werden.
 \begin_inset Newline newline
 \end_inset
 
-Zu Beginn des Programms wird die XML-Datei mit Hilfe von „minidom“ eingelesen
+Zu Beginn des Programms wird die XML-Datei mittels „minidom“ eingelesen
  und alle Informationen in einem Array abgelegt (Siehe Algorithmus 2).
 \begin_inset Newline newline
 \end_inset
@@ -1274,7 +1506,7 @@ for story in storyXML:
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Algoritthmus zum einlesen der XML mit python minidom
+Algoritthmus zum Einlesen der XML mit python minidom
 \end_layout
 
 \end_inset
@@ -1975,6 +2207,13 @@ Letztlich testeten wir noch den Zusammenhang zwischen den einzelnen Geschichten,
  Erfahrungen mit Demenzerkrankten wurden dabei besonders stark gewichtet.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Deskription des Einsatzes
 \end_layout
@@ -2002,7 +2241,7 @@ Der Einsatz fand am 16.01.2019 in der Einrichtung Gustav-Schatz-Hof in Kiel
  die Tauglichkeit für die Einrichtung geprüft werden.
  Die Dauer des Aufenthaltes befand sich bei ca.
  einer Stunde.
- Zum Anfang sollte der Roboter erst altbekannte Programme mit den Bewohnern
+ Zum Anfang sollte der Roboter erst altbekannte Programme mit den Bewohnerinnen
  ausführen und später unser Programm ausführen.
  Dabei wurden die bekannten Programme in einer großen Gruppe vorgeführt
  und das Programm unserer Gruppe separat mit zwei Personen.
@@ -2020,44 +2259,44 @@ of in Kiel.
 \begin_inset Newline newline
 \end_inset
 
-Darauf erfolgte die Verbindungen des Roboters mit dem WLAN.
+Darauf erfolgte die Verbindung des Roboters mit dem WLAN.
  Hierbei kam es zu Komplikationen.
- Die ersten 30 Minuten innerhalb der Einrichtung, konnte der Roboter nicht
+ Die ersten 30 Minuten innerhalb der Einrichtung konnte der Roboter nicht
  gestartet werden, sodass sich die Vorführung verzögerte.
- Die Bewohner saßen im Aufenthaltsraum in einem großen Stuhlkreis zusammen.
+ Die Bewohnerinnen saßen im Aufenthaltsraum in einem großen Stuhlkreis zusammen.
  Einige waren wach und gespannt auf den Roboter.
  Andere wiederum schliefen oder waren mit den Gedanken woanders.
- Die Leitung, die Mitarbeiter sowie die Bewohner waren jedoch entspannt
- und drängten nicht zur Hektik, als der Roboter nicht funktionierte.
+ Die Leitung, die Mitarbeiter_innen sowie die Bewohnerinnen waren jedoch
+ entspannt und drängten nicht zur Hektik, als der Roboter nicht funktionierte.
  Sie machten Späße, dass der Roboter zu lange wach gewesen sei und nicht
  gut geschlafen habe.
  
 \begin_inset Newline newline
 \end_inset
 
-Nachdem der Roboter sich mit dem WLAN und dem Computer verband, konnte der
- Roboter eingesetzt werden.
+Nachdem der Roboter sich mit dem WLAN und dem Computer verbunden hatte,
+ konnte der Roboter eingesetzt werden.
  Hierbei stellte sich die Frage, ob das Filmen der Menschen in Ordnung ist.
- Dabei wurde den Mitarbeitern versichert, dass dies nur Hochschulzwecken
+ Dabei wurde den Mitarbeiter_innen versichert, dass dies nur Hochschulzwecken
  dient und nicht veröffentlicht wird, sowie keine Nennung von Namen erfolgt.
  Das Filmen durch ein Handy wurde erlaubt.
  Zuerst wurde ein, sich bereits auf dem Roboter befindendes, Programm ausprobier
 t.
- Die Bewohner und die Mitarbeiter tanzten und sangen.
+ Die Bewohnerinnen und die Mitarbeiter_innen tanzten und sangen.
  Wir als Gruppe haben uns erst einmal in den Hintergrund gestellt, da unser
  Programm noch nicht durchgeführt wurde und ein Mitarbeiter wusste, wie
- er mit den Bewohnern und mit dem Roboter umzugehen hatte, damit die Bedienung
- erfolgreich war.
- Es wurden weitere Programme mit den Bewohnern ausprobiert.
+ er mit den Bewohnerinnen und mit dem Roboter umzugehen hatte, damit die
+ Bedienung erfolgreich war.
+ Es wurden weitere Programme mit den Bewohnerinnen ausprobiert.
  Um ca.
- 10.45 Uhr wurden die Bewohner in einen anderen Raum geführt, mittels einer
- „Polognese“.
+ 10.45 Uhr wurden die Bewohnerinnen in einen anderen Raum geführt, mittels
+ einer „Polognese“.
  
 \begin_inset Newline newline
 \end_inset
 
 Wir folgten der Gruppe und warteten auf weitere Anweisungen der Leitung
- oder der Mitarbeiter.
+ oder der Mitarbeiter_innen.
  Diese sagten, dass wir unser Programm mit zwei Damen durchgehen können.
  Dementsprechend sind wir mit dem Roboter und den zwei Damen in einen separaten
  Raum gegangen.
@@ -2116,7 +2355,7 @@ status collapsed
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -2141,6 +2380,13 @@ Spaß beim Hören des Froschkönigs
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
 \end_inset
 
 
@@ -2201,7 +2447,7 @@ Zu schnelle Auswahl bei Sterntaler
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -2293,7 +2539,7 @@ Als später verschiedene Programme mit den Bewohnerinnen im großen Stuhlkreis
  ausprobiert worden sind, kam es zu Schwierigkeiten in der Bedienung des
  Roboters.
  Unsere Gruppe überlegte, ob unser Programm nicht zu kompliziert für die
- Bewohner sei.
+ Bewohnerinnen sei.
  
 \begin_inset Newline newline
 \end_inset
@@ -2312,7 +2558,7 @@ n.
  Bei der Geschichte „Sterntaler“ kam es zu Schwierigkeiten, da ein Part
  der Geschichte übersprungen wurde.
  Hier könnte es zu einer besseren Einweisung des Programms kommen, sodass
- die Bewohner besser verstehen, was sie wann drücken müssen.
+ die Bewohnerinnen besser verstehen, was sie wann drücken müssen.
  In dem Fall wurde zu schnell auf das Tablett gedrückt, sodass der Computer
  den richtigen Part nicht abspielen konnte.
  Das Problem könnte behoben werden, indem den Damen vorher erklärt werden
@@ -2340,7 +2586,7 @@ Unsere Gruppe war vom Ergebnis positiv überrascht und erleichtert, da sich
 ng nicht beachtet hat.
  Es wäre interessant gewesen, die Einschätzung der Mitarbeiter_innen zu
  erfahren, um das Programm dahingehend zu verbessern.
- Ein weiter Punkt ist, dass unsere Gruppe nicht die komplette Durchführung
+ Ein weiterer Punkt ist, dass unsere Gruppe nicht die komplette Durchführung
  in der Einrichtung übernommen hat.
  Viele Aspekte von Mitarbeiter_innen übernommen.
  Hier könnte sich im Vorhinein näher mit der Ausführung beschäftigt werden,
@@ -2353,7 +2599,7 @@ nkte gebracht.
 \end_inset
 
 Zusammenfassend lässt sich jedoch sagen, dass unser Programm für ausgewählte
- Personen gut eignet ist und diesen Personenkreis gefällt.
+ Personen gut geeignet ist und diesen Personenkreis gefällt.
  Interessant wäre jedoch auch ein Test mit einer Dame in einem weiter fortgeschr
 ittenen Krankheitsstadium gewesen, um unsere Ergebnisse besser einordnen
  zu können.
@@ -2368,12 +2614,19 @@ innen ansprechen, zu Problemen führen.
  eingegangen werden.
  Daher ist es wichtig, dass immer ein Mitarbeiter_in bei der Bedienung des
  Roboters dabei ist.
- Diese Person kann im konkreten Fall, die emotionalen Ausbrüche der Bewohner_inn
-en begleiten und lässt diese nicht allein mit ihren Gefühlen.
+ Diese Person kann im konkreten Fall, die emotionalen Ausbrüche der Bewohnerinne
+n begleiten und lässt diese nicht allein mit ihren Gefühlen.
  Die Gefühle können von Person zu Person unterschiedlich sein.
  In unserem Fall gab es keine sogenannten Trigger für die Damen.
  Des Weiteren war ebenfalls ein Mitarbeiter dabei, als das Programm durchgeführt
  worden ist.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -2465,22 +2718,7 @@ w.ukv.de/content/service/gesundheit-aktuell/demenz-und-die-macht-der-worte/
 Vier, Marianne; Schröer, Lothar (2016): Märchen gegen das Vergessen.
  Wie Sie mit Vorlesen Menschen mit Demenz erreichen.
  Mit 40 Märchen.
- ISBN: 978-3-466-34623-3 
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section*
-Kenntlichmachung der Berichtteile
-\end_layout
-
-\begin_layout Standard
-
+ ISBN: 978-3-466-34623-3
 \end_layout
 
 \end_body
