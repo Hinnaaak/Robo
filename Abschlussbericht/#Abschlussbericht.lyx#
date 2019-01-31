@@ -11,11 +11,11 @@
 
 \lhead{} 
 
-\chead{Humanoide Roboter in der Pflege - Abschlussbericht - Interaktive Geschichten}
+\chead{Humanoide Roboter in der Pflege - Interaktive Geschichten}
 
 \rhead{}
 
-\lfoot{Malte H., Luca S., Sarah S. - Fachhochschule Kiel WS18/19}
+\lfoot{M. Hansen, L. Schüller, S. Skoda}
 
 \cfoot{}
 
@@ -97,49 +97,238 @@
 
 \begin_body
 
-\begin_layout Title
-Humanoide Roboter in der Pflege
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
 \end_layout
 
-\begin_layout Author
-Malte Hansen Matrikel-Nr.
- 928 765
-\begin_inset Newline newline
-\end_inset
+\begin_layout Plain Layout
 
-Luca Schüller Matrikel-Nr.
- 928 719
-\begin_inset Newline newline
-\end_inset
 
-Sarah Skoda Matrikel-Nr.
- 931 666
+\backslash
+begin{center} 
+\backslash
+begin{tabular}{p{
+\backslash
+textwidth}}
 \end_layout
 
-\begin_layout Abstract
-\noindent
-Abschlussbericht zum Projekt interaktives Geschichtenvorlesen, im Rahmen
- des Moduls 17 / BI 136 Humanoide Roboter in der Pflege.
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center} 
+\backslash
+includegraphics[scale=0.5]{Bilder/logos.jpg} 
+\backslash
+end{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center} 
+\backslash
+LARGE{
+\backslash
+textsc{ Wintersemester 2018/2019
+\backslash
+
+\backslash
+ }} 
+\backslash
+end{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center} 
+\backslash
+large{Fachbereich
+\backslash
+
+\backslash
+ Informatik und Elektrotechnik 
+\backslash
+
+\backslash
+ Soziale Arbeit und Gesundheit 
+\backslash
+
+\backslash
+} 
+\backslash
+end{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center} 
+\backslash
+textbf{
+\backslash
+Large{Projektbericht}}
+\backslash
+
+\backslash
+ BI 136 Humanoide Roboter in der Pflege 
+\backslash
+end{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center} vorgelegt von 
+\backslash
+end{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center} 
+\backslash
+begin{tabular}{ccc} 
+\backslash
+large{
+\backslash
+textbf{Malte Hansen}} & 
+\backslash
+large{
+\backslash
+textbf{Luca Schüller}} & 
+\backslash
+large{
+\backslash
+textbf{Sarah Skoda}}
+\backslash
+
+\backslash
  
-\begin_inset Newline newline
+\backslash
+small{Matr.-Nr.: 928765} & 
+\backslash
+small{Matr.-Nr.: 928719} & 
+\backslash
+small{Matr.-Nr.: 931666}
+\backslash
+
+\backslash
+
+\backslash
+
+\backslash
+ 
+\backslash
+end{tabular} 
+\backslash
+end{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center} 
+\backslash
+large{im Januar 2019} 
+\backslash
+end{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center} 
+\backslash
+begin{tabular}{lll} 
+\backslash
+textbf{Dozent/in:} J.
+ Lüssem & G.
+ Lenz & H.
+ Eilers
+\backslash
+
+\backslash
+ 
+\backslash
+end{tabular} 
+\backslash
+end{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tabular} 
+\backslash
+end{center}
+\end_layout
+
 \end_inset
 
-Fachhochschule Kiel, Hochschule für angewandte Wissenschaften.
- 
-\begin_inset Newline newline
-\end_inset
 
-Fachbereich Soziale Arbeit und Gesundheit, Studiengang Soziale Arbeit.
- 
-\begin_inset Newline newline
-\end_inset
-
-Fachbereich Informatik und Elektrotechnick, Studiengang Informationstechnologie.
- 
-\begin_inset Newline newline
-\end_inset
-
-Dozent/in: Hannes Eilers, Gaby Lenz, Jens Lüssem.
 \end_layout
 
 \begin_layout Standard
@@ -231,7 +420,7 @@ Die Zielsetzung, die sich für die Gruppe ergeben hat, war schnell eindeutig.
 \begin_inset Newline newline
 \end_inset
 
-Die Wahl viel auf ein Programm zum Vorlesen von Geschichten mit visuellen,
+Die Wahl fiel auf ein Programm zum Vorlesen von Geschichten mit visuellen,
  auditiven und interaktiven Aspekten.
  Der Sinn der Geschichtenvorlesung ist, dass es die Menschen in der WG aktiviere
 n soll.
@@ -253,8 +442,8 @@ Die Ausgangsüberlegung war erst einmal, was sich sinnvoll in der vorgegebenen
 \begin_inset Newline newline
 \end_inset
 
-Es war klar, dass es kein zu kompliziertes oder gar aufwendiges Programm
- für den Roboter sein dürfe, da die Zeit nicht ausreichend ist, eben dieses
+Es war klar, dass es kein zu kompliziertes oder aufwendiges Programm für
+ den Roboter sein durfte, da die Zeit nicht ausreichend ist, eben dieses
  zu programmieren.
  Des Weiteren sollte das Programm nicht nur den demenzerkrankten Personen,
  im besten Fall, Spaß machen, sondern das Programm sollte auch eine Entlastung
@@ -272,13 +461,20 @@ Der Gruppe wurde berichtet, dass es in der Demenz-WG Menschen gibt, die
  für jeden etwas dabei sein um Spaß an dem Roboter zu haben.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
-Warum sollte demenzkranken Menschen vorlesen werden?
+Warum sollte demenzkranken Menschen vorgelesen werden?
 \end_layout
 
 \begin_layout Standard
-Vorlesen zu bekommen ist eine der ersten Kindheitserinnerungen vieler Menschen,
- da bilden Demenzkranke keine Ausnahme.
+Vorgelesen zu bekommen ist eine der ersten Kindheitserinnerungen vieler
+ Menschen, da bilden Demenzkranke keine Ausnahme.
  Jedoch ist es bei vielen demenzerkrankten Personen so, dass es neben der
  Demenz noch eine Vielzahl von anderen Problemen gibt, die das Lesen erschweren.
  Ein Beispiel hierfür ist, dass es Probleme mit den Augen geben kann.
@@ -374,7 +570,13 @@ g darstellen können.
  Durch Bilder oder Gegenstände kann die Gefühlswelt der Menschen direkt
  angesprochen werden.
  Dies unterstützt das Märchen in seiner Wirkung.
- 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -536,11 +738,11 @@ Erst mussten für das Programm Geschichten ausgewählt werden.
  Hierbei war es wichtig, dass diese Geschichten bestimmte Kriterien erfüllten,
  um als geeignet für Demenzerkrankte eingestuft zu werden.
  Um diese Kriterien zu erfüllen, wurde sich mit der Demenz auseinandergesetzt
- und auch mit typischen Verhaltensweisen von Menschen mit Demenz.
+ und mit den typischen Verhaltensweisen von Menschen mit Demenz.
  Dadurch wurde besonders deutlich, dass die Geschichten nicht zu lang und
  ebenfalls von der Satzstellung nicht zu kompliziert sein dürfen.
- Märchen stellten sich als gut geeignet zum Vorlesen heraus, da Märchen
- auch ein Bestandteil vieler älterer Menschen war und ist.
+ Märchen stellten sich als gut geeignet heraus, um vorgelesen zu werden.
+ Märchen sind ein Bestandteil vieler älterer Menschen.
  Innerhalb der Gruppe wurde sich für „Der Froschkönig“ und „Die Sterntaler“
  entschieden.
  
@@ -630,6 +832,13 @@ Sind die Texte thematisch angemessen?
 \begin_layout Standard
 Der Evaluationsbogen dient für eine bessere Reflektion nach der Vorführung
  des Programms.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -758,7 +967,7 @@ Unter Berücksichtigung aller Anforderungen (vgl.
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -869,7 +1078,7 @@ Nach dem durch das Antippen oder die Spracherkennung eine Geschichte ausgewählt
 \end_inset
 
 Wenn die falsche Seite des Bildes ausgewählt wurde, fragt der Roboter, ob
- man sich sicher ist und bittet darum es noch einmal zu Probieren.
+ man sich sicher ist und bittet es noch einmal zu Probieren.
  Das Geräusch wird erneut abgespielt und auf das Tippen gewartet.
  Der Nutzer kann bis zu fünf Mal die falsche Seite auswählen.
  Danach fährt das Programm, trotz falscher Eingabe, im Ablauf fort.
@@ -1164,7 +1373,7 @@ e bereitgestellt werden.
 \begin_inset Newline newline
 \end_inset
 
-Zu Beginn des Programms wird die XML-Datei mit Hilfe von „minidom“ eingelesen
+Zu Beginn des Programms wird die XML-Datei mittels „minidom“ eingelesen
  und alle Informationen in einem Array abgelegt (Siehe Algorithmus 2).
 \begin_inset Newline newline
 \end_inset
@@ -1304,7 +1513,7 @@ for story in storyXML:
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Algoritthmus zum einlesen der XML mit python minidom
+Algoritthmus zum Einlesen der XML mit python minidom
 \end_layout
 
 \end_inset
@@ -1339,10 +1548,11 @@ noindent
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset listings
+lstparams "breaklines=true"
 inline false
 status open
 
@@ -1418,12 +1628,8 @@ function myFunction(xml) {
 
 \begin_layout Plain Layout
 
-		document.getElementById("buttonSection").innerHTML += 
-\end_layout
-
-\begin_layout Plain Layout
-
-		"<button id='story" 
+		document.getElementById("buttonSection").innerHTML += "<button id='story"
+ 
 \end_layout
 
 \begin_layout Plain Layout
@@ -2005,6 +2211,13 @@ Letztlich testeten wir noch den Zusammenhang zwischen den einzelnen Geschichten,
  Erfahrungen mit Demenzerkrankten wurden dabei besonders stark gewichtet.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Deskription des Einsatzes
 \end_layout
@@ -2171,6 +2384,13 @@ Spaß beim Hören des Froschkönigs
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
 \end_inset
 
 
@@ -2372,7 +2592,7 @@ ng nicht beachtet hat.
  erfahren, um das Programm dahingehend zu verbessern.
  Ein weiterer Punkt ist, dass unsere Gruppe nicht die komplette Durchführung
  in der Einrichtung übernommen hat.
- Viele Aspekte von Mitarbeiter_innen übernommen.
+ Viele Aspekte wurden von Mitarbeiter_innen übernommen.
  Hier könnte sich im Vorhinein näher mit der Ausführung beschäftigt werden,
  sodass mehr Eigeninitiative übernommen wird.
  Die Erfahrungen die wir durch die selbstständige Durchführung der anderen
@@ -2406,6 +2626,13 @@ n begleiten und lässt diese nicht allein mit ihren Gefühlen.
  worden ist.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Fazit
 \end_layout
@@ -2434,7 +2661,7 @@ Des Weiteren war es uns möglich Problematiken aus einem anderen Fachbereich
  zu erleben und zu verstehen.
  Die enge Zusammenarbeit während des Projektverlaufs gab uns die Möglichkeit
  unsere interdisziplinären Kompetenzen zu erweitern und lieferte uns einen
- Grundstein auf dem wir in unserer weiteren beruflichen Laufbahn aufbauen
+ Grundstein, auf dem wir in unserer weiteren beruflichen Laufbahn aufbauen
  können.
 \end_layout
 

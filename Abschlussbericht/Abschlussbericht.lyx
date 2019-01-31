@@ -420,7 +420,7 @@ Die Zielsetzung, die sich für die Gruppe ergeben hat, war schnell eindeutig.
 \begin_inset Newline newline
 \end_inset
 
-Die Wahl viel auf ein Programm zum Vorlesen von Geschichten mit visuellen,
+Die Wahl fiel auf ein Programm zum Vorlesen von Geschichten mit visuellen,
  auditiven und interaktiven Aspekten.
  Der Sinn der Geschichtenvorlesung ist, dass es die Menschen in der WG aktiviere
 n soll.
@@ -442,8 +442,8 @@ Die Ausgangsüberlegung war erst einmal, was sich sinnvoll in der vorgegebenen
 \begin_inset Newline newline
 \end_inset
 
-Es war klar, dass es kein zu kompliziertes oder gar aufwendiges Programm
- für den Roboter sein dürfe, da die Zeit nicht ausreichend ist, eben dieses
+Es war klar, dass es kein zu kompliziertes oder aufwendiges Programm für
+ den Roboter sein durfte, da die Zeit nicht ausreichend ist, eben dieses
  zu programmieren.
  Des Weiteren sollte das Programm nicht nur den demenzerkrankten Personen,
  im besten Fall, Spaß machen, sondern das Programm sollte auch eine Entlastung
@@ -469,12 +469,12 @@ Der Gruppe wurde berichtet, dass es in der Demenz-WG Menschen gibt, die
 \end_layout
 
 \begin_layout Section
-Warum sollte demenzkranken Menschen vorlesen werden?
+Warum sollte demenzkranken Menschen vorgelesen werden?
 \end_layout
 
 \begin_layout Standard
-Vorlesen zu bekommen ist eine der ersten Kindheitserinnerungen vieler Menschen,
- da bilden Demenzkranke keine Ausnahme.
+Vorgelesen zu bekommen ist eine der ersten Kindheitserinnerungen vieler
+ Menschen, da bilden Demenzkranke keine Ausnahme.
  Jedoch ist es bei vielen demenzerkrankten Personen so, dass es neben der
  Demenz noch eine Vielzahl von anderen Problemen gibt, die das Lesen erschweren.
  Ein Beispiel hierfür ist, dass es Probleme mit den Augen geben kann.
@@ -738,11 +738,11 @@ Erst mussten für das Programm Geschichten ausgewählt werden.
  Hierbei war es wichtig, dass diese Geschichten bestimmte Kriterien erfüllten,
  um als geeignet für Demenzerkrankte eingestuft zu werden.
  Um diese Kriterien zu erfüllen, wurde sich mit der Demenz auseinandergesetzt
- und auch mit typischen Verhaltensweisen von Menschen mit Demenz.
+ und mit den typischen Verhaltensweisen von Menschen mit Demenz.
  Dadurch wurde besonders deutlich, dass die Geschichten nicht zu lang und
  ebenfalls von der Satzstellung nicht zu kompliziert sein dürfen.
- Märchen stellten sich als gut geeignet zum Vorlesen heraus, da Märchen
- auch ein Bestandteil vieler älterer Menschen war und ist.
+ Märchen stellten sich als gut geeignet heraus, um vorgelesen zu werden.
+ Märchen sind ein Bestandteil vieler älterer Menschen.
  Innerhalb der Gruppe wurde sich für „Der Froschkönig“ und „Die Sterntaler“
  entschieden.
  
@@ -1078,7 +1078,7 @@ Nach dem durch das Antippen oder die Spracherkennung eine Geschichte ausgewählt
 \end_inset
 
 Wenn die falsche Seite des Bildes ausgewählt wurde, fragt der Roboter, ob
- man sich sicher ist und bittet darum es noch einmal zu Probieren.
+ man sich sicher ist und bittet es noch einmal zu Probieren.
  Das Geräusch wird erneut abgespielt und auf das Tippen gewartet.
  Der Nutzer kann bis zu fünf Mal die falsche Seite auswählen.
  Danach fährt das Programm, trotz falscher Eingabe, im Ablauf fort.
@@ -1952,7 +1952,7 @@ Anders wiederum war es bei der örtlichen Erkennung der Touch-Eingabe.
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset listings
@@ -2595,7 +2595,7 @@ ng nicht beachtet hat.
  erfahren, um das Programm dahingehend zu verbessern.
  Ein weiterer Punkt ist, dass unsere Gruppe nicht die komplette Durchführung
  in der Einrichtung übernommen hat.
- Viele Aspekte von Mitarbeiter_innen übernommen.
+ Viele Aspekte wurden von Mitarbeiter_innen übernommen.
  Hier könnte sich im Vorhinein näher mit der Ausführung beschäftigt werden,
  sodass mehr Eigeninitiative übernommen wird.
  Die Erfahrungen die wir durch die selbstständige Durchführung der anderen
@@ -2664,7 +2664,7 @@ Des Weiteren war es uns möglich Problematiken aus einem anderen Fachbereich
  zu erleben und zu verstehen.
  Die enge Zusammenarbeit während des Projektverlaufs gab uns die Möglichkeit
  unsere interdisziplinären Kompetenzen zu erweitern und lieferte uns einen
- Grundstein auf dem wir in unserer weiteren beruflichen Laufbahn aufbauen
+ Grundstein, auf dem wir in unserer weiteren beruflichen Laufbahn aufbauen
  können.
 \end_layout
 
